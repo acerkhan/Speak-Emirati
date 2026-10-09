@@ -1,0 +1,851 @@
+{
+  "lessons": [
+    {
+      "id": 1,
+      "title": "Greetings and simple replies",
+      "level": "beginner",
+      "lines": [
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "هلا والله! شحالك؟",
+          "trans": "Hey! How are you?",
+          "audio": "audio/lesson-01/line-01.mp3"
+        },
+        {
+          "speaker": "Speaker 2",
+          "speakerId": "speaker-2",
+          "ar": "بخير، الحمد لله. وإنت؟",
+          "trans": "Good, thank God. And you?",
+          "audio": "audio/lesson-01/line-02.mp3"
+        },
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "زين، تسلم. شو أخبارك؟",
+          "trans": "Good, thanks. What’s new with you?",
+          "audio": "audio/lesson-01/line-03.mp3"
+        },
+        {
+          "speaker": "Speaker 2",
+          "speakerId": "speaker-2",
+          "ar": "ما شي يديد، كل شي زين.",
+          "trans": "Nothing new; everything’s good.",
+          "audio": "audio/lesson-01/line-04.mp3"
+        },
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "يلا، أشوفك عقب.",
+          "trans": "Alright, see you later.",
+          "audio": "audio/lesson-01/line-05.mp3"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "What, where, and who",
+      "level": "beginner",
+      "lines": [
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "وين رايح الحين؟",
+          "trans": "Where are you going now?",
+          "audio": "audio/lesson-02/line-01.mp3"
+        },
+        {
+          "speaker": "Speaker 2",
+          "speakerId": "speaker-2",
+          "ar": "رايح المحل. تبغي شي؟",
+          "trans": "I’m going to the shop. Do you want anything?",
+          "audio": "audio/lesson-02/line-02.mp3"
+        },
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "إي، ييب لي ماي لو سمحت.",
+          "trans": "Yes, get me some water, please.",
+          "audio": "audio/lesson-02/line-03.mp3"
+        },
+        {
+          "speaker": "Speaker 2",
+          "speakerId": "speaker-2",
+          "ar": "أكيد. شي ثاني؟",
+          "trans": "Sure. Anything else?",
+          "audio": "audio/lesson-02/line-04.mp3"
+        },
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "لا، بس ماي. مشكور.",
+          "trans": "No, just water. Thanks.",
+          "audio": "audio/lesson-02/line-05.mp3"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Wants and everyday needs",
+      "level": "beginner",
+      "lines": [
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "شو تبغي تتعشّى اليوم؟",
+          "trans": "What do you want to have for dinner today?",
+          "audio": "audio/lesson-03/line-01.mp3"
+        },
+        {
+          "speaker": "Speaker 2",
+          "speakerId": "speaker-2",
+          "ar": "أبغي شي خفيف، مب وايد.",
+          "trans": "I want something light, not too much.",
+          "audio": "audio/lesson-03/line-02.mp3"
+        },
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "عندنا خبز وجبن بعد.",
+          "trans": "We also have bread and cheese.",
+          "audio": "audio/lesson-03/line-03.mp3"
+        },
+        {
+          "speaker": "Speaker 2",
+          "speakerId": "speaker-2",
+          "ar": "زين، خلنا ناكل في البيت.",
+          "trans": "Good, let’s eat at home.",
+          "audio": "audio/lesson-03/line-04.mp3"
+        },
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "تمام، أنا بجهّز الأكل.",
+          "trans": "Alright, I’ll get the food ready.",
+          "audio": "audio/lesson-03/line-05.mp3"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Today, yesterday, and later",
+      "level": "beginner",
+      "lines": [
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "شو سويت اليوم؟",
+          "trans": "What did you do today?",
+          "audio": "audio/lesson-04/line-01.mp3"
+        },
+        {
+          "speaker": "Speaker 2",
+          "speakerId": "speaker-2",
+          "ar": "دوامي كان طويل، وتوّي راد البيت.",
+          "trans": "My workday was long, and I’ve only just got home.",
+          "audio": "audio/lesson-04/line-02.mp3"
+        },
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "تعبان؟",
+          "trans": "Are you tired?",
+          "audio": "audio/lesson-04/line-03.mp3"
+        },
+        {
+          "speaker": "Speaker 2",
+          "speakerId": "speaker-2",
+          "ar": "شوي، بس لازم أرتاح قبل لا أطلع.",
+          "trans": "A little, but I need to rest before I go out.",
+          "audio": "audio/lesson-04/line-04.mp3"
+        },
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "عادي، نقدر نطلع عقب شوي.",
+          "trans": "No worries, we can go out in a little while.",
+          "audio": "audio/lesson-04/line-05.mp3"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Family and friends",
+      "level": "beginner",
+      "lines": [
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "بتزور أهلك اليوم؟",
+          "trans": "Are you visiting your family today?",
+          "audio": "audio/lesson-05/line-01.mp3"
+        },
+        {
+          "speaker": "Speaker 2",
+          "speakerId": "speaker-2",
+          "ar": "هيه، بكلمهم الحين وبمرّ عليهم عقب.",
+          "trans": "Yes, I’ll call them now and drop by later.",
+          "audio": "audio/lesson-05/line-02.mp3"
+        },
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "منو بيكون هناك؟",
+          "trans": "Who will be there?",
+          "audio": "audio/lesson-05/line-03.mp3"
+        },
+        {
+          "speaker": "Speaker 2",
+          "speakerId": "speaker-2",
+          "ar": "أخوي وربيعي، ويمكن بنت عمي بعد.",
+          "trans": "My brother and my friend, and maybe my cousin too.",
+          "audio": "audio/lesson-05/line-04.mp3"
+        },
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "حلو، سلّم عليهم مني.",
+          "trans": "Nice, give them my regards.",
+          "audio": "audio/lesson-05/line-05.mp3"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "At home and daily routines",
+      "level": "everyday",
+      "lines": [
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "خلصت ترتيب الغرفة؟",
+          "trans": "Have you finished tidying the room?",
+          "audio": "audio/lesson-06/line-01.mp3"
+        },
+        {
+          "speaker": "Speaker 2",
+          "speakerId": "speaker-2",
+          "ar": "تقريباً، بس للحين باقي شوي.",
+          "trans": "Almost, but there’s still a little left.",
+          "audio": "audio/lesson-06/line-02.mp3"
+        },
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "تبغي أساعدك؟",
+          "trans": "Want me to help you?",
+          "audio": "audio/lesson-06/line-03.mp3"
+        },
+        {
+          "speaker": "Speaker 2",
+          "speakerId": "speaker-2",
+          "ar": "هيه، إذا تقدر شيل هالأغراض.",
+          "trans": "Yes, if you can, move these things.",
+          "audio": "audio/lesson-06/line-04.mp3"
+        },
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "ولا يهمك، خلني أخلّص هني أول.",
+          "trans": "No problem, let me finish here first.",
+          "audio": "audio/lesson-06/line-05.mp3"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Shopping and prices",
+      "level": "everyday",
+      "lines": [
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "بكم هالقطعة؟",
+          "trans": "How much is this item?",
+          "audio": "audio/lesson-07/line-01.mp3"
+        },
+        {
+          "speaker": "Speaker 2",
+          "speakerId": "speaker-2",
+          "ar": "بخمسة وثلاثين درهم.",
+          "trans": "Thirty-five dirhams.",
+          "audio": "audio/lesson-07/line-02.mp3"
+        },
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "غالي شوي. عندكم شي أرخص؟",
+          "trans": "A little expensive. Do you have something cheaper?",
+          "audio": "audio/lesson-07/line-03.mp3"
+        },
+        {
+          "speaker": "Speaker 2",
+          "speakerId": "speaker-2",
+          "ar": "عندنا واحد ثاني، بس لونه غير.",
+          "trans": "We have another one, but its colour is different.",
+          "audio": "audio/lesson-07/line-04.mp3"
+        },
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "خلني أشوفه، يعني يمكن يناسبني أكثر.",
+          "trans": "Let me see it; I mean, maybe it’ll suit me better.",
+          "audio": "audio/lesson-07/line-05.mp3"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "When you don’t understand",
+      "level": "everyday",
+      "lines": [
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "خذ هالورقة ومرّ على المكتب اللي فوق.",
+          "trans": "Take this paper and stop by the office upstairs.",
+          "audio": "audio/lesson-08/line-01.mp3"
+        },
+        {
+          "speaker": "Speaker 2",
+          "speakerId": "speaker-2",
+          "ar": "سمح لي، شو يعني «مرّ على المكتب»؟",
+          "trans": "Sorry, what does “stop by the office” mean?",
+          "audio": "audio/lesson-08/line-02.mp3"
+        },
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "يعني روح للمكتب وخله يشوف الورقة.",
+          "trans": "It means go to the office and let them look at the paper.",
+          "audio": "audio/lesson-08/line-03.mp3"
+        },
+        {
+          "speaker": "Speaker 2",
+          "speakerId": "speaker-2",
+          "ar": "ممكن تعيد آخر شي؟",
+          "trans": "Could you repeat the last part?",
+          "audio": "audio/lesson-08/line-04.mp3"
+        },
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "أكيد، ولا يهمك. بشرح لك شوي شوي.",
+          "trans": "Of course, no problem. I’ll explain it slowly.",
+          "audio": "audio/lesson-08/line-05.mp3"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "At work",
+      "level": "everyday",
+      "lines": [
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "خلصت التقرير؟",
+          "trans": "Have you finished the report?",
+          "audio": "audio/lesson-09/line-01.mp3"
+        },
+        {
+          "speaker": "Speaker 2",
+          "speakerId": "speaker-2",
+          "ar": "للحين لا، لأن البيانات ما وصلتني.",
+          "trans": "Not yet, because I haven’t received the data.",
+          "audio": "audio/lesson-09/line-02.mp3"
+        },
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "متى تتوقع تخلّصه؟",
+          "trans": "When do you expect to finish it?",
+          "audio": "audio/lesson-09/line-03.mp3"
+        },
+        {
+          "speaker": "Speaker 2",
+          "speakerId": "speaker-2",
+          "ar": "إذا وصلتني الحين، بخلّصه قبل نهاية الدوام.",
+          "trans": "If it reaches me now, I’ll finish it before the end of the shift.",
+          "audio": "audio/lesson-09/line-04.mp3"
+        },
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "زين، خبرني إذا احتجت شي.",
+          "trans": "Alright, let me know if you need anything.",
+          "audio": "audio/lesson-09/line-05.mp3"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Asking for help and making requests",
+      "level": "everyday",
+      "lines": [
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "أقدر أسألك سؤال؟",
+          "trans": "Can I ask you a question?",
+          "audio": "audio/lesson-10/line-01.mp3"
+        },
+        {
+          "speaker": "Speaker 2",
+          "speakerId": "speaker-2",
+          "ar": "أكيد، تفضل.",
+          "trans": "Of course, go ahead.",
+          "audio": "audio/lesson-10/line-02.mp3"
+        },
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "ما أقدر أفتح هالملف. ممكن تساعدني؟",
+          "trans": "I can’t open this file. Could you help me?",
+          "audio": "audio/lesson-10/line-03.mp3"
+        },
+        {
+          "speaker": "Speaker 2",
+          "speakerId": "speaker-2",
+          "ar": "هيه، خلني أشوف المشكلة.",
+          "trans": "Yes, let me look at the problem.",
+          "audio": "audio/lesson-10/line-04.mp3"
+        },
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "يمكن تحتاج تحدّث البرنامج، عشان جي ما يفتح.",
+          "trans": "Maybe you need to update the program; that’s why it won’t open.",
+          "audio": "audio/lesson-10/line-05.mp3"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Making plans",
+      "level": "everyday",
+      "lines": [
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "شو رايك نطلع عقب الدوام؟",
+          "trans": "What do you think about going out after work?",
+          "audio": "audio/lesson-11/line-01.mp3"
+        },
+        {
+          "speaker": "Speaker 2",
+          "speakerId": "speaker-2",
+          "ar": "ممكن، على حسب متى أخلّص.",
+          "trans": "Maybe; it depends on when I finish.",
+          "audio": "audio/lesson-11/line-02.mp3"
+        },
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "إذا خلّصت مبكر، بنتريا لك.",
+          "trans": "If you finish early, we’ll wait for you.",
+          "audio": "audio/lesson-11/line-03.mp3"
+        },
+        {
+          "speaker": "Speaker 2",
+          "speakerId": "speaker-2",
+          "ar": "زين، بكلمك قبل لا أطلع.",
+          "trans": "Alright, I’ll call you before I leave.",
+          "audio": "audio/lesson-11/line-04.mp3"
+        },
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "تمام، خلنا نتفق عقب شوي.",
+          "trans": "Great, let’s decide in a little while.",
+          "audio": "audio/lesson-11/line-05.mp3"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Food, cafés, and preferences",
+      "level": "everyday",
+      "lines": [
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "شو بتطلب؟",
+          "trans": "What are you going to order?",
+          "audio": "audio/lesson-12/line-01.mp3"
+        },
+        {
+          "speaker": "Speaker 2",
+          "speakerId": "speaker-2",
+          "ar": "يمكن آخذ قهوة وساندويتش.",
+          "trans": "Maybe I’ll get a coffee and a sandwich.",
+          "audio": "audio/lesson-12/line-02.mp3"
+        },
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "تبغي سكر في القهوة؟",
+          "trans": "Do you want sugar in the coffee?",
+          "audio": "audio/lesson-12/line-03.mp3"
+        },
+        {
+          "speaker": "Speaker 2",
+          "speakerId": "speaker-2",
+          "ar": "لا، من غير سكر. الصراحة أحبها جي.",
+          "trans": "No, without sugar. Honestly, I like it this way.",
+          "audio": "audio/lesson-12/line-04.mp3"
+        },
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "أنا بعد. بس اليوم باخذ شاي.",
+          "trans": "Me too. But today I’ll get tea.",
+          "audio": "audio/lesson-12/line-05.mp3"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Explaining reasons and consequences",
+      "level": "advanced",
+      "lines": [
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "ليش ما ييت الاجتماع؟",
+          "trans": "Why didn’t you come to the meeting?",
+          "audio": "audio/lesson-13/line-01.mp3"
+        },
+        {
+          "speaker": "Speaker 2",
+          "speakerId": "speaker-2",
+          "ar": "ما قدرت، لأن السيارة اختربت في الدرب.",
+          "trans": "I couldn’t; the car broke down on the way.",
+          "audio": "audio/lesson-13/line-02.mp3"
+        },
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "آها، عشان جي ما رديت على اتصالي؟",
+          "trans": "Ah, so that’s why you didn’t answer my call?",
+          "audio": "audio/lesson-13/line-03.mp3"
+        },
+        {
+          "speaker": "Speaker 2",
+          "speakerId": "speaker-2",
+          "ar": "هيه، توّي وصلت البيت وشفت اتصالك.",
+          "trans": "Yes, I’ve only just got home and saw your call.",
+          "audio": "audio/lesson-13/line-04.mp3"
+        },
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "ولا يهمك، أهم شي إنك بخير.",
+          "trans": "No worries; the main thing is that you’re okay.",
+          "audio": "audio/lesson-13/line-05.mp3"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "The word يعني in natural conversation",
+      "level": "advanced",
+      "lines": [
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "شلون كان المكان؟",
+          "trans": "How was the place?",
+          "audio": "audio/lesson-14/line-01.mp3"
+        },
+        {
+          "speaker": "Speaker 2",
+          "speakerId": "speaker-2",
+          "ar": "حلو، يعني هادي ومو زحمة.",
+          "trans": "Nice—I mean, quiet and not crowded.",
+          "audio": "audio/lesson-14/line-02.mp3"
+        },
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "يعني تنصحني أروح؟",
+          "trans": "So, would you recommend that I go?",
+          "audio": "audio/lesson-14/line-03.mp3"
+        },
+        {
+          "speaker": "Speaker 2",
+          "speakerId": "speaker-2",
+          "ar": "هيه، خصوصاً إذا تبغي مكان ترتاح فيه.",
+          "trans": "Yes, especially if you want somewhere to relax.",
+          "audio": "audio/lesson-14/line-04.mp3"
+        },
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "زين، يمكن أروح باجر.",
+          "trans": "Alright, maybe I’ll go tomorrow.",
+          "audio": "audio/lesson-14/line-05.mp3"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Talking about a story or situation",
+      "level": "advanced",
+      "lines": [
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "سمعت السالفة اللي استوت في الدوام؟",
+          "trans": "Did you hear about what happened at work?",
+          "audio": "audio/lesson-15/line-01.mp3"
+        },
+        {
+          "speaker": "Speaker 2",
+          "speakerId": "speaker-2",
+          "ar": "لا، شو استوى؟",
+          "trans": "No, what happened?",
+          "audio": "audio/lesson-15/line-02.mp3"
+        },
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "صار لخبطة في الجدول، وكل واحد راح مكان غير.",
+          "trans": "There was confusion with the schedule, and everyone went somewhere different.",
+          "audio": "audio/lesson-15/line-03.mp3"
+        },
+        {
+          "speaker": "Speaker 2",
+          "speakerId": "speaker-2",
+          "ar": "صدق؟ وبعدين شو صار؟",
+          "trans": "Really? And then what happened?",
+          "audio": "audio/lesson-15/line-04.mp3"
+        },
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "رتّبوا الموضوع عقب، بس خذ وقت.",
+          "trans": "They sorted it out later, but it took time.",
+          "audio": "audio/lesson-15/line-05.mp3"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Softening requests and suggesting a solution",
+      "level": "advanced",
+      "lines": [
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "تقدر ترسل لي التفاصيل اليوم؟",
+          "trans": "Can you send me the details today?",
+          "audio": "audio/lesson-16/line-01.mp3"
+        },
+        {
+          "speaker": "Speaker 2",
+          "speakerId": "speaker-2",
+          "ar": "بحاول، بس عندي شغل وايد.",
+          "trans": "I’ll try, but I have a lot of work.",
+          "audio": "audio/lesson-16/line-02.mp3"
+        },
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "إذا ما تقدر اليوم، عادي أستلمها باجر.",
+          "trans": "If you can’t today, it’s okay for me to receive them tomorrow.",
+          "audio": "audio/lesson-16/line-03.mp3"
+        },
+        {
+          "speaker": "Speaker 2",
+          "speakerId": "speaker-2",
+          "ar": "زين، خلني أخلّص هالشغلة وبطرشها لك.",
+          "trans": "Alright, let me finish this task and I’ll send it to you.",
+          "audio": "audio/lesson-16/line-04.mp3"
+        },
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "مشكور، ما قصّرت.",
+          "trans": "Thanks, I appreciate your help.",
+          "audio": "audio/lesson-16/line-05.mp3"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Agreeing, disagreeing, and saying “it depends”",
+      "level": "advanced",
+      "lines": [
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "تحس هالخطة أحسن؟",
+          "trans": "Do you feel this plan is better?",
+          "audio": "audio/lesson-17/line-01.mp3"
+        },
+        {
+          "speaker": "Speaker 2",
+          "speakerId": "speaker-2",
+          "ar": "على حسب. إذا عندنا وقت، هي أحسن.",
+          "trans": "It depends. If we have time, it’s better.",
+          "audio": "audio/lesson-17/line-02.mp3"
+        },
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "وإذا ما عندنا وقت؟",
+          "trans": "And if we don’t have time?",
+          "audio": "audio/lesson-17/line-03.mp3"
+        },
+        {
+          "speaker": "Speaker 2",
+          "speakerId": "speaker-2",
+          "ar": "نسوي الشي الضروري أول، والباقي عقب.",
+          "trans": "We’ll do what’s necessary first and the rest later.",
+          "audio": "audio/lesson-17/line-04.mp3"
+        },
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "صح، جي نضمن إن أهم شي يخلص.",
+          "trans": "Right, this way we make sure the most important thing gets done.",
+          "audio": "audio/lesson-17/line-05.mp3"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Clarifying a misunderstanding",
+      "level": "advanced",
+      "lines": [
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "قلت لك لا تحطّه هني.",
+          "trans": "I told you not to put it here.",
+          "audio": "audio/lesson-18/line-01.mp3"
+        },
+        {
+          "speaker": "Speaker 2",
+          "speakerId": "speaker-2",
+          "ar": "أنا فهمت إنك تقصد المكان الثاني.",
+          "trans": "I understood that you meant the other place.",
+          "audio": "audio/lesson-18/line-02.mp3"
+        },
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "لا، قصدي هالمكان بالضبط.",
+          "trans": "No, I meant this exact place.",
+          "audio": "audio/lesson-18/line-03.mp3"
+        },
+        {
+          "speaker": "Speaker 2",
+          "speakerId": "speaker-2",
+          "ar": "أوكي، الحين فهمت عليك. سمح لي.",
+          "trans": "Okay, now I understand you. Sorry about that.",
+          "audio": "audio/lesson-18/line-04.mp3"
+        },
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "ما عليه، تصير. خلنا نعدّل المكان وخلاص.",
+          "trans": "It’s alright, it happens. Let’s change the location and that’s it.",
+          "audio": "audio/lesson-18/line-05.mp3"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Explaining what you’ve just done",
+      "level": "advanced",
+      "lines": [
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "وين كنت؟ دقيت عليك قبل شوي.",
+          "trans": "Where were you? I called you a little while ago.",
+          "audio": "audio/lesson-19/line-01.mp3"
+        },
+        {
+          "speaker": "Speaker 2",
+          "speakerId": "speaker-2",
+          "ar": "كنت في المحل، وتوّي طالع منه.",
+          "trans": "I was at the shop; I’ve just come out of it.",
+          "audio": "audio/lesson-19/line-02.mp3"
+        },
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "ليش ما رديت؟",
+          "trans": "Why didn’t you answer?",
+          "audio": "audio/lesson-19/line-03.mp3"
+        },
+        {
+          "speaker": "Speaker 2",
+          "speakerId": "speaker-2",
+          "ar": "كان المكان زحمة وما سمعت التلفون.",
+          "trans": "The place was crowded, and I didn’t hear the phone.",
+          "audio": "audio/lesson-19/line-04.mp3"
+        },
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "خلاص، كلّمْني إذا وصلت.",
+          "trans": "Alright, call me when you arrive.",
+          "audio": "audio/lesson-19/line-05.mp3"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Putting it all together",
+      "level": "advanced",
+      "lines": [
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "ها، شو صار على موضوع الوظيفة؟",
+          "trans": "So, what happened with the job situation?",
+          "audio": "audio/lesson-20/line-01.mp3"
+        },
+        {
+          "speaker": "Speaker 2",
+          "speakerId": "speaker-2",
+          "ar": "للحين ما في رد. يعني يمكن يردّون عليّ باجر.",
+          "trans": "There’s still no reply. I mean, maybe they’ll get back to me tomorrow.",
+          "audio": "audio/lesson-20/line-02.mp3"
+        },
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "إن شاء الله خير. وإذا ما ردّوا؟",
+          "trans": "Hopefully it works out. And if they don’t reply?",
+          "audio": "audio/lesson-20/line-03.mp3"
+        },
+        {
+          "speaker": "Speaker 2",
+          "speakerId": "speaker-2",
+          "ar": "بنتظر شوي، وعقب بتواصل وياهم مرة ثانية.",
+          "trans": "I’ll wait a little, then contact them again.",
+          "audio": "audio/lesson-20/line-04.mp3"
+        },
+        {
+          "speaker": "Speaker 1",
+          "speakerId": "speaker-1",
+          "ar": "زين، عسى خير. وإذا احتجت مساعدة، خبرني.",
+          "trans": "Alright, hope it goes well. If you need help, let me know.",
+          "audio": "audio/lesson-20/line-05.mp3"
+        },
+        {
+          "speaker": "Speaker 2",
+          "speakerId": "speaker-2",
+          "ar": "تسلم، ما قصّرت. بخبرك إذا استوى شي.",
+          "trans": "Thanks, I appreciate it. I’ll let you know if anything happens.",
+          "audio": "audio/lesson-20/line-06.mp3"
+        }
+      ]
+    }
+  ]
+}
