@@ -2,3 +2,212 @@
 @media(max-width:1050px){.welcome-art{right:1%;opacity:.52}.welcome-copy{max-width:72%}.learning-workspace{grid-template-columns:245px minmax(0,1fr);gap:14px}.lesson-sidebar{padding-inline:12px}.lesson-choice{gap:8px;padding-inline:6px}.lesson-number{flex-basis:35px;width:35px;height:35px}}
 @media(max-width:760px){.site-header{height:72px}.header-pill{font-size:9px;padding:8px}.app-shell{padding-top:20px}.welcome-panel{padding:28px 22px;min-height:0}.welcome-copy{max-width:100%}.welcome-copy h1{font-size:38px}.welcome-copy>p:not(.eyebrow){max-width:480px}.welcome-art{right:-95px;opacity:.16}.learning-workspace{grid-template-columns:1fr}.lesson-sidebar{position:static;padding:18px 14px}.lesson-list{display:flex;max-height:none;overflow-x:auto;overflow-y:hidden;padding:0 0 5px;gap:7px}.lesson-choice{flex:0 0 210px;max-width:210px}.sidebar-footer{display:none}.lesson-content{padding:23px 18px}.vocab-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.site-footer{padding-bottom:20px}}
 @media(max-width:480px){.header-pill{letter-spacing:.4px}.brand-mark{width:39px;height:39px}.welcome-panel{border-radius:22px}.welcome-copy h1{font-size:34px;letter-spacing:-1.4px}.welcome-tags span{font-size:10px}.lesson-content{padding:20px 14px}.lesson-hero h2{font-size:29px}.section-heading h3{font-size:19px}.vocab-grid{grid-template-columns:1fr}.vocab-card{padding:14px}.exercise-options{grid-template-columns:1fr}.dialogue-arabic{font-size:21px}.lesson-bottom-nav .button{padding:9px 10px;font-size:10px}.site-footer{font-size:9px}}
+
+/* Speak Emirati — readability and mobile learning improvements */
+
+:root {
+  --bg: #0b1220;
+  --surface: #151f30;
+  --surface-2: #1c2a3e;
+  --surface-3: #26384f;
+  --text: #f8faff;
+  --muted: #bac7d8;
+  --teal: #65edcf;
+  --line: rgba(205, 222, 245, 0.18);
+}
+
+/* Easier-to-read body text */
+body {
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+.welcome-copy > p:not(.eyebrow),
+.lesson-intro,
+.section-lead,
+.usage-note p,
+.grammar-translation,
+.dialogue-translation,
+.vocab-meaning {
+  color: #d0dbea;
+  font-size: 14px;
+  line-height: 1.75;
+}
+
+.eyebrow,
+.section-eyebrow {
+  letter-spacing: 1.5px;
+}
+
+/* Clearer, more spacious lesson panel */
+.lesson-sidebar,
+.lesson-content {
+  background: #111b2b;
+  border-color: #29384d;
+}
+
+.lesson-content {
+  padding: clamp(22px, 4vw, 44px);
+}
+
+.lesson-hero h2 {
+  line-height: 1.25;
+}
+
+.section-heading h3 {
+  font-size: 23px;
+}
+
+.lesson-choice-title {
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.lesson-choice-meta {
+  font-size: 11px;
+  color: #bdcadb;
+}
+
+.lesson-number {
+  width: 42px;
+  height: 42px;
+  flex-basis: 42px;
+  font-size: 13px;
+}
+
+/* Give learning cards more separation */
+.vocab-card,
+.grammar-example,
+.exercise-card,
+.dialogue-card,
+.usage-note {
+  background: #19263a;
+  border-color: #30415a;
+}
+
+.arabic-word {
+  font-size: 30px;
+}
+
+.grammar-arabic,
+.exercise-arabic,
+.dialogue-arabic {
+  font-size: 25px;
+  line-height: 1.9;
+}
+
+.transliteration,
+.grammar-translit {
+  font-size: 13px;
+}
+
+.exercise-card h4 {
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.exercise-option {
+  min-height: 48px;
+  background: #223149;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+/* Mobile: stack lesson rows vertically instead of sideways */
+@media (max-width: 760px) {
+  .app-shell {
+    padding: 16px 12px 36px;
+  }
+
+  .welcome-panel {
+    padding: 30px 22px;
+    border-radius: 24px;
+  }
+
+  .welcome-copy h1 {
+    font-size: clamp(34px, 9vw, 43px);
+    line-height: 1.15;
+  }
+
+  .welcome-copy > p:not(.eyebrow) {
+    font-size: 14px;
+  }
+
+  .welcome-art {
+    opacity: 0.08;
+  }
+
+  .learning-workspace {
+    gap: 14px;
+    margin-top: 18px;
+  }
+
+  .lesson-sidebar {
+    padding: 20px 16px;
+  }
+
+  .lesson-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 7px;
+    max-height: none;
+    overflow: visible;
+    padding: 0;
+  }
+
+  .lesson-choice {
+    width: 100%;
+    max-width: none;
+    min-width: 0;
+    padding: 12px;
+    gap: 12px;
+    border-color: #29394f;
+    background: #172235;
+  }
+
+  .lesson-choice-title {
+    font-size: 13px;
+  }
+
+  .lesson-content {
+    padding: 24px 17px;
+  }
+
+  .vocab-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .exercise-options {
+    grid-template-columns: 1fr;
+  }
+
+  .button {
+    min-height: 44px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 420px) {
+  .vocab-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .lesson-hero h2 {
+    font-size: 29px;
+  }
+
+  .arabic-word {
+    font-size: 32px;
+  }
+
+  .dialogue-arabic,
+  .grammar-arabic,
+  .exercise-arabic {
+    font-size: 24px;
+  }
+
+  .header-pill {
+    font-size: 8px;
+    padding: 7px 8px;
+  }
+}
