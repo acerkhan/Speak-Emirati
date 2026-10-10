@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#0a1020">
-  <meta name="description" content="Learn Emirati Arabic with vocabulary, sentence patterns, usage notes, exercises, and real dialogue audio.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101722">
+  <meta name="description" content="Learn Emirati Arabic through vocabulary, sentence patterns, usage notes, and real dialogue audio.">
   <title>Speak Emirati — Learn by doing</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,20 +13,38 @@
   <script src="app.js" defer></script>
 </head>
 <body>
-  <header class="site-header">
-    <a class="brand" href="#top" aria-label="Speak Emirati home"><span class="brand-mark" lang="ar">ع</span><span class="brand-copy"><strong>Speak Emirati</strong><small>Listen. Understand. Speak.</small></span></a>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Speak Emirati home">
+      <span class="brand-mark" lang="ar">ع</span>
+      <span class="brand-copy"><strong>Speak Emirati</strong><small>Listen. Understand. Speak.</small></span>
+    </a>
     <div class="header-pill"><span class="live-dot"></span> YOUR DAILY PRACTICE</div>
   </header>
-  <main class="app-shell" id="top">
+
+  <main class="app-shell">
     <section class="welcome-panel">
-      <div class="welcome-copy"><p class="eyebrow">YOUR LEARNING JOURNEY</p><h1>Real Emirati.<br><span>Real progress.</span></h1><p>Build your skills step by step: learn useful words, understand how sentences work, and practise with natural conversations.</p><div class="welcome-tags"><span>20 guided lessons</span><span>Audio dialogue</span><span>Practice as you go</span></div></div>
+      <div class="welcome-copy">
+        <p class="eyebrow">YOUR LEARNING JOURNEY</p>
+        <h1>Real Emirati.<br><span>Real progress.</span></h1>
+        <p>Learn the words, understand how sentences work, and practise with everyday Emirati conversations.</p>
+        <div class="welcome-tags"><span>20 guided lessons</span><span>Dialogue audio</span><span>Practice as you go</span></div>
+      </div>
       <div class="welcome-art" aria-hidden="true"><div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div><div class="art-arabic" lang="ar">يلا نتعلّم</div><div class="art-caption">YALLA, LET’S LEARN</div><div class="art-star star-one">✦</div><div class="art-star star-two">✧</div></div>
     </section>
+
+    <div class="progress-strip" aria-label="Course progress"><div><span class="progress-label">YOUR COURSE PROGRESS</span><strong id="progress-count">0 of 20 lessons explored</strong></div><div class="progress-track"><span id="progress-fill"></span></div></div>
+
     <section class="learning-workspace" aria-label="Course lessons">
-      <aside class="lesson-sidebar"><div class="sidebar-heading"><div><p class="eyebrow">YOUR COURSE</p><h2>Lessons</h2></div><span class="lesson-total">20</span></div><p class="sidebar-hint">Follow the sequence or revisit any lesson.</p><div id="lesson-list" class="lesson-list"><p class="muted">Loading lessons…</p></div><div class="sidebar-footer"><span class="sidebar-footer-icon">✦</span><p><strong>Small steps add up.</strong><br>Consistency beats cramming.</p></div></aside>
+      <aside class="lesson-sidebar">
+        <div class="sidebar-heading"><div><p class="eyebrow">YOUR COURSE</p><h2>Lessons</h2></div><span class="lesson-total">20</span></div>
+        <p class="sidebar-hint">Choose a lesson. New vocabulary builds on what you have already learned.</p>
+        <div id="lesson-list" class="lesson-list"><p class="muted">Loading lessons…</p></div>
+        <div class="sidebar-footer"><span class="sidebar-footer-icon">✦</span><p><strong>Small steps add up.</strong><br>Consistency beats cramming.</p></div>
+      </aside>
       <section class="lesson-content" id="lesson-details" aria-live="polite"><div class="loading-panel"><div class="loader"></div><p>Preparing your learning space…</p></div></section>
     </section>
   </main>
+
   <footer class="site-footer"><span>Speak Emirati</span><span>Made for steady, practical progress.</span></footer>
   <div id="status-message" class="status-message" role="status" aria-live="polite"></div>
 </body>

@@ -1,1645 +1,3144 @@
 {
-  "version": 1,
-  "lessons": {
-    "1": {
+  "lessons": [
+    {
+      "id": 1,
+      "title": "Greetings and simple replies",
+      "objective": "Greet people, ask how they are, and give a natural short reply.",
       "vocabulary": [
-        [
-          "هلا",
-          "hala",
-          "Hi / hello"
-        ],
-        [
-          "شحالك؟",
-          "shḥālak?",
-          "How are you? (to a man)"
-        ],
-        [
-          "زين",
-          "zain",
-          "Good / fine"
-        ],
-        [
-          "الحمدلله",
-          "alḥamdillah",
-          "Thank God / I'm well"
-        ]
+        {
+          "key": "هلا",
+          "ar": "هلا",
+          "trans": "hala",
+          "meaning": "Hi / hello",
+          "detail": "A warm, very common greeting.",
+          "exampleAr": "هلا والله",
+          "exampleTrans": "Hala wallah",
+          "exampleEn": "Hi there!"
+        },
+        {
+          "key": "السلام عليكم",
+          "ar": "السلام عليكم",
+          "trans": "as-salāmu ʿalaykum",
+          "meaning": "Peace be upon you / hello",
+          "detail": "A polite greeting used in everyday life.",
+          "exampleAr": "السلام عليكم، شحالك؟",
+          "exampleTrans": "As-salāmu ʿalaykum, shḥālak?",
+          "exampleEn": "Hello, how are you?"
+        },
+        {
+          "key": "وعليكم السلام",
+          "ar": "وعليكم السلام",
+          "trans": "wa ʿalaykum as-salām",
+          "meaning": "And peace be upon you",
+          "detail": "The usual reply to السلام عليكم.",
+          "exampleAr": "وعليكم السلام",
+          "exampleTrans": "Wa ʿalaykum as-salām",
+          "exampleEn": "And hello to you."
+        },
+        {
+          "key": "شحالك؟",
+          "ar": "شحالك؟",
+          "trans": "shḥālak?",
+          "meaning": "How are you? (to a man)",
+          "detail": "A common Emirati/Gulf way to ask a man how he is.",
+          "exampleAr": "هلا، شحالك؟",
+          "exampleTrans": "Hala, shḥālak?",
+          "exampleEn": "Hi, how are you?"
+        },
+        {
+          "key": "شحالچ؟",
+          "ar": "شحالچ؟",
+          "trans": "shḥālch?",
+          "meaning": "How are you? (to a woman)",
+          "detail": "The feminine form; pronunciation varies by speaker.",
+          "exampleAr": "هلا، شحالچ؟",
+          "exampleTrans": "Hala, shḥālch?",
+          "exampleEn": "Hi, how are you?"
+        },
+        {
+          "key": "زين",
+          "ar": "زين",
+          "trans": "zain",
+          "meaning": "Good / fine",
+          "detail": "Can describe how you feel or how something is.",
+          "exampleAr": "أنا زين، الحمد لله",
+          "exampleTrans": "Ana zain, alḥamdillah",
+          "exampleEn": "I’m fine, thank God."
+        },
+        {
+          "key": "الحمد لله",
+          "ar": "الحمد لله",
+          "trans": "alḥamdillah",
+          "meaning": "Thank God / praise be to God",
+          "detail": "A common response after saying how you are.",
+          "exampleAr": "زين، الحمد لله",
+          "exampleTrans": "Zain, alḥamdillah",
+          "exampleEn": "Fine, thank God."
+        },
+        {
+          "key": "تمام",
+          "ar": "تمام",
+          "trans": "tamām",
+          "meaning": "All good / perfect",
+          "detail": "A natural short positive reply.",
+          "exampleAr": "كل شي تمام",
+          "exampleTrans": "Kil shay tamām",
+          "exampleEn": "Everything is good."
+        },
+        {
+          "key": "والله",
+          "ar": "والله",
+          "trans": "wallah",
+          "meaning": "Honestly / by God",
+          "detail": "Often used conversationally for emphasis, not always literally.",
+          "exampleAr": "والله زين",
+          "exampleTrans": "Wallah zain",
+          "exampleEn": "Honestly, I’m good."
+        },
+        {
+          "key": "إنت",
+          "ar": "إنت",
+          "trans": "inta",
+          "meaning": "You (to a man)",
+          "detail": "Informal singular “you”; feminine often إنتي.",
+          "exampleAr": "وإنت؟",
+          "exampleTrans": "W inta?",
+          "exampleEn": "And you?"
+        }
       ],
       "structure": {
-        "title": "A natural greeting exchange",
-        "explanation": "A short greeting is often followed by a question about someone's wellbeing, then a brief reply.",
-        "pattern": "هلا + شحالك؟ → زين، الحمدلله",
-        "examples": [
-          {
-            "ar": "هلا، شحالك؟",
-            "transliteration": "Hala, shḥālak?",
-            "en": "Hi, how are you?",
-            "breakdown": "هلا is a friendly hello; شحالك asks how a man is doing."
-          },
-          {
-            "ar": "زين، الحمدلله.",
-            "transliteration": "Zain, alḥamdillah.",
-            "en": "Good, thank God.",
-            "breakdown": "A common, natural short answer."
-          }
-        ]
+        "pattern": "Greeting + check-in + short reply",
+        "explanation": "In a simple greeting exchange, speakers often use a greeting, ask how the other person is, then answer briefly. A full English-style sentence is not always needed.",
+        "exampleAr": "هلا، شحالك؟ زين، الحمد لله.",
+        "exampleTrans": "Hala, shḥālak? Zain, alḥamdillah.",
+        "exampleEn": "Hi, how are you? Fine, thank God."
       },
       "notes": [
-        "شحالك؟ is addressed to a man; شحالج؟ (shḥālich?) is commonly used when addressing a woman.",
-        "زين can mean good, fine, or okay. Tone and context help communicate how positive the answer is."
+        {
+          "title": "Greeting",
+          "text": "هلا / السلام عليكم",
+          "detail": "Use هلا with friends and in casual situations; السلام عليكم works broadly."
+        },
+        {
+          "title": "Replying",
+          "text": "زين، الحمد لله",
+          "detail": "A short answer is natural. You can then ask و إنت؟ (“and you?”)."
+        },
+        {
+          "title": "Gender",
+          "text": "شحالك؟ / شحالچ؟",
+          "detail": "The form can change depending on whether you address a man or a woman. Spellings and pronunciations vary across Emirati speakers."
+        }
       ],
       "exercises": [
         {
-          "question": "What does شحالك؟ mean when speaking to a man?",
+          "type": "multiple-choice",
+          "question": "What does زين mean in this context?",
           "options": [
-            "Where are you?",
-            "How are you?",
-            "What do you want?",
-            "See you later"
+            "Good / fine",
+            "Where",
+            "Tomorrow",
+            "Please"
           ],
-          "answer": 1,
-          "explanation": "It asks how someone is doing."
+          "answer": 0,
+          "feedback": "زين means good or fine."
         },
         {
+          "type": "multiple-choice",
           "question": "Choose a natural reply to شحالك؟",
           "options": [
-            "زين، الحمدلله",
+            "زين، الحمد لله",
             "وين البيت؟",
-            "كم الساعة؟",
-            "ما أعرفك"
+            "كم السعر؟",
+            "ما أعرف"
           ],
           "answer": 0,
-          "explanation": "زين، الحمدلله means good, thank God."
-        },
-        {
-          "question": "What is the closest meaning of هلا?",
-          "options": [
-            "Please",
-            "Sorry",
-            "Hello / hi",
-            "Tomorrow"
-          ],
-          "answer": 2,
-          "explanation": "هلا is a friendly greeting."
+          "feedback": "زين، الحمد لله is a natural response: “Fine, thank God.”"
         }
       ]
     },
-    "2": {
+    {
+      "id": 2,
+      "title": "What, where, and who",
+      "objective": "Ask basic questions about people, places, and things.",
       "vocabulary": [
-        [
-          "شو",
-          "shū",
-          "What"
-        ],
-        [
-          "وين",
-          "wēn",
-          "Where"
-        ],
-        [
-          "منو",
-          "minū",
-          "Who"
-        ],
-        [
-          "ليش",
-          "lēsh",
-          "Why"
-        ]
+        {
+          "key": "شو",
+          "ar": "شو",
+          "trans": "shū",
+          "meaning": "What",
+          "detail": "One of the most useful Emirati question words.",
+          "exampleAr": "شو هذا؟",
+          "exampleTrans": "Shū hātha?",
+          "exampleEn": "What is this?"
+        },
+        {
+          "key": "وين",
+          "ar": "وين",
+          "trans": "wēn",
+          "meaning": "Where",
+          "detail": "Used to ask about location.",
+          "exampleAr": "وين البيت؟",
+          "exampleTrans": "Wēn il-bēt?",
+          "exampleEn": "Where is the house?"
+        },
+        {
+          "key": "منو",
+          "ar": "منو",
+          "trans": "minū",
+          "meaning": "Who",
+          "detail": "Commonly used to ask who someone is.",
+          "exampleAr": "منو هذا؟",
+          "exampleTrans": "Minū hātha?",
+          "exampleEn": "Who is this?"
+        },
+        {
+          "key": "هذا",
+          "ar": "هذا",
+          "trans": "hātha",
+          "meaning": "This (masculine)",
+          "detail": "Points to a masculine noun or something treated as masculine.",
+          "exampleAr": "هذا تلفون",
+          "exampleTrans": "Hātha تلفون",
+          "exampleEn": "This is a phone."
+        },
+        {
+          "key": "هذي",
+          "ar": "هذي",
+          "trans": "hāthi",
+          "meaning": "This (feminine)",
+          "detail": "Points to a feminine noun or thing.",
+          "exampleAr": "هذي سيارة",
+          "exampleTrans": "Hāthi sayyāra",
+          "exampleEn": "This is a car."
+        },
+        {
+          "key": "شو هذا؟",
+          "ar": "شو هذا؟",
+          "trans": "shū hātha?",
+          "meaning": "What is this?",
+          "detail": "A complete, reusable question pattern.",
+          "exampleAr": "شو هذا اللي هني؟",
+          "exampleTrans": "Shū hātha illi hini?",
+          "exampleEn": "What is this here?"
+        },
+        {
+          "key": "هني",
+          "ar": "هني",
+          "trans": "hini",
+          "meaning": "Here",
+          "detail": "Common Emirati/Gulf form meaning here.",
+          "exampleAr": "تعال هني",
+          "exampleTrans": "Taʿāl hini",
+          "exampleEn": "Come here."
+        },
+        {
+          "key": "هناك",
+          "ar": "هناك",
+          "trans": "hināk",
+          "meaning": "There",
+          "detail": "A common word for there; local alternatives also occur.",
+          "exampleAr": "هو هناك",
+          "exampleTrans": "Huwa hināk",
+          "exampleEn": "He is there."
+        },
+        {
+          "key": "بيت",
+          "ar": "بيت",
+          "trans": "bēt",
+          "meaning": "House / home",
+          "detail": "A common noun for home or house.",
+          "exampleAr": "وين البيت؟",
+          "exampleTrans": "Wēn il-bēt?",
+          "exampleEn": "Where is the house?"
+        },
+        {
+          "key": "تلفون",
+          "ar": "تلفون",
+          "trans": "tilifōn",
+          "meaning": "Phone",
+          "detail": "Everyday word for a phone.",
+          "exampleAr": "هذا تلفون",
+          "exampleTrans": "Hātha tilifōn",
+          "exampleEn": "This is a phone."
+        }
       ],
       "structure": {
-        "title": "Question words first",
-        "explanation": "In everyday Emirati Arabic, question words often appear at the start of the question.",
-        "pattern": "Question word + the rest of the question",
-        "examples": [
-          {
-            "ar": "شو هذا؟",
-            "transliteration": "Shū hātha?",
-            "en": "What is this?",
-            "breakdown": "شو asks what; هذا means this."
-          },
-          {
-            "ar": "وين البيت؟",
-            "transliteration": "Wēn il-bēt?",
-            "en": "Where is the house?",
-            "breakdown": "وين asks where."
-          }
-        ]
+        "pattern": "Question word + person / thing / place",
+        "explanation": "Question words often come first. A simple location question can be “وين + thing/person?” A naming question can be “شو هذا؟” (“What is this?”) or “منو هذا؟” (“Who is this?”).",
+        "exampleAr": "وين البيت؟",
+        "exampleTrans": "Wēn il-bēt?",
+        "exampleEn": "Where is the house?"
       },
       "notes": [
-        "شو is widely used for ‘what’ in Emirati speech.",
-        "ليش asks for a reason; وين asks about a place, while منو asks about a person."
+        {
+          "title": "Question word first",
+          "text": "وين المكتب؟",
+          "detail": "وين asks for a place; the place/person being asked about follows it."
+        },
+        {
+          "title": "Demonstratives",
+          "text": "هذا / هذي",
+          "detail": "Learn the noun together with the demonstrative when possible. Gender agreement is common, but everyday speech has variation."
+        },
+        {
+          "title": "Short answers",
+          "text": "هني. / هناك.",
+          "detail": "A single location word can be a complete answer in conversation."
+        }
       ],
       "exercises": [
         {
-          "question": "Which word asks ‘where’?",
+          "type": "multiple-choice",
+          "question": "Which word asks “where”?",
           "options": [
-            "منو",
-            "ليش",
             "وين",
-            "شو"
-          ],
-          "answer": 2,
-          "explanation": "وين means where."
-        },
-        {
-          "question": "How do you ask ‘What is this?’",
-          "options": [
-            "شو هذا؟",
-            "وين هذا؟",
-            "منو هذا؟",
-            "ليش هذا؟"
-          ],
-          "answer": 0,
-          "explanation": "شو هذا؟ is ‘What is this?’"
-        },
-        {
-          "question": "Which question word asks ‘who’?",
-          "options": [
             "شو",
-            "منو",
-            "وين",
-            "متى"
-          ],
-          "answer": 1,
-          "explanation": "منو asks who."
-        }
-      ]
-    },
-    "3": {
-      "vocabulary": [
-        [
-          "أبغي",
-          "abghī",
-          "I want"
-        ],
-        [
-          "أبا",
-          "abā",
-          "I want (colloquial variant)"
-        ],
-        [
-          "ما أبغي",
-          "mā abghī",
-          "I don't want"
-        ],
-        [
-          "ممكن",
-          "mumkin",
-          "Can / possible"
-        ]
-      ],
-      "structure": {
-        "title": "Say what you want",
-        "explanation": "Use أبغي before a thing or action you want. Add ما before the verb to make a negative statement.",
-        "pattern": "أبغي + thing/action · ما أبغي + thing/action",
-        "examples": [
-          {
-            "ar": "أبغي ماي، لو سمحت.",
-            "transliteration": "Abghī māy, law samaḥt.",
-            "en": "I'd like water, please.",
-            "breakdown": "أبغي = I want; ماي = water; لو سمحت = please."
-          },
-          {
-            "ar": "ما أبغي هذا.",
-            "transliteration": "Mā abghī hātha.",
-            "en": "I don't want this.",
-            "breakdown": "ما makes the statement negative."
-          }
-        ]
-      },
-      "notes": [
-        "أبغي is common in Emirati and Gulf speech; pronunciation and preferred forms vary by speaker.",
-        "لو سمحت is a polite ‘please’ when speaking to a man; لو سمحتي is often used when speaking to a woman."
-      ],
-      "exercises": [
-        {
-          "question": "What does أبغي mean?",
-          "options": [
-            "I know",
-            "I want",
-            "I went",
-            "I heard"
-          ],
-          "answer": 1,
-          "explanation": "أبغي means I want."
-        },
-        {
-          "question": "Which phrase means ‘I don't want this’?",
-          "options": [
-            "أبغي هذا",
-            "شو هذا؟",
-            "ما أبغي هذا",
-            "هذا زين"
-          ],
-          "answer": 2,
-          "explanation": "ما أبغي negates the want."
-        },
-        {
-          "question": "Which phrase makes a request more polite?",
-          "options": [
-            "لو سمحت",
-            "ليش",
-            "منو",
-            "أمس"
-          ],
-          "answer": 0,
-          "explanation": "لو سمحت means please."
-        }
-      ]
-    },
-    "4": {
-      "vocabulary": [
-        [
-          "اليوم",
-          "il-yōm",
-          "Today"
-        ],
-        [
-          "أمس",
-          "ams",
-          "Yesterday"
-        ],
-        [
-          "باچر",
-          "bācher",
-          "Tomorrow"
-        ],
-        [
-          "عقب",
-          "ʿagib",
-          "After / later"
-        ]
-      ],
-      "structure": {
-        "title": "Place time words in context",
-        "explanation": "Time expressions commonly appear at the beginning or end of a sentence. Use the context to make the time clear.",
-        "pattern": "Time + subject/action  |  subject/action + time",
-        "examples": [
-          {
-            "ar": "باچر عندي دوام.",
-            "transliteration": "Bācher ʿindī dawām.",
-            "en": "I have work tomorrow.",
-            "breakdown": "باچر sets the time; عندي دوام means I have work."
-          },
-          {
-            "ar": "أمس كنت في البيت.",
-            "transliteration": "Ams kunt fil-bēt.",
-            "en": "Yesterday I was at home.",
-            "breakdown": "أمس signals past time."
-          }
-        ]
-      },
-      "notes": [
-        "باچر is a common Gulf/Emirati word for tomorrow; you may also hear باجر depending on speaker and spelling.",
-        "عقب can mean after or later, and usually depends on what event or time is being discussed."
-      ],
-      "exercises": [
-        {
-          "question": "Which word means ‘tomorrow’?",
-          "options": [
-            "أمس",
-            "اليوم",
-            "باچر",
-            "عقب"
-          ],
-          "answer": 2,
-          "explanation": "باچر means tomorrow."
-        },
-        {
-          "question": "What does أمس mean?",
-          "options": [
-            "Yesterday",
-            "Today",
-            "Tomorrow",
-            "Soon"
-          ],
-          "answer": 0,
-          "explanation": "أمس means yesterday."
-        },
-        {
-          "question": "Choose the sentence meaning ‘I have work tomorrow.’",
-          "options": [
-            "أمس عندي دوام",
-            "باچر عندي دوام",
-            "وين الدوام؟",
-            "ما أبغي دوام"
-          ],
-          "answer": 1,
-          "explanation": "باچر عندي دوام is ‘I have work tomorrow.’"
-        }
-      ]
-    },
-    "5": {
-      "vocabulary": [
-        [
-          "أهل",
-          "ahl",
-          "Family / people at home"
-        ],
-        [
-          "أمي",
-          "ummī",
-          "My mother"
-        ],
-        [
-          "أبوي",
-          "abūy",
-          "My father"
-        ],
-        [
-          "خوي",
-          "khūy",
-          "My brother / male friend"
-        ]
-      ],
-      "structure": {
-        "title": "Talking about people close to you",
-        "explanation": "Possessive forms are often attached to family words. These everyday forms are common in conversation.",
-        "pattern": "word + ـي = my … (in many common words)",
-        "examples": [
-          {
-            "ar": "هذي أمي.",
-            "transliteration": "Hādhī ummī.",
-            "en": "This is my mother.",
-            "breakdown": "أمي means my mother."
-          },
-          {
-            "ar": "بروح عند أهلي.",
-            "transliteration": "Barūḥ ʿind ahlī.",
-            "en": "I'm going to my family's place.",
-            "breakdown": "أهلي means my family."
-          }
-        ]
-      },
-      "notes": [
-        "خوي can mean brother or, in some contexts, a close male friend; the relationship is understood from context.",
-        "Family terms and pronunciations vary across Gulf families and regions. Listen to how the people around you use them."
-      ],
-      "exercises": [
-        {
-          "question": "What does أمي mean?",
-          "options": [
-            "My father",
-            "My mother",
-            "My friend",
-            "My house"
-          ],
-          "answer": 1,
-          "explanation": "أمي means my mother."
-        },
-        {
-          "question": "Which word means ‘my father’ in colloquial speech?",
-          "options": [
-            "أبوي",
-            "أمي",
-            "أهل",
-            "خوي"
-          ],
-          "answer": 0,
-          "explanation": "أبوي means my father."
-        },
-        {
-          "question": "What does أهلي usually mean?",
-          "options": [
-            "My family",
-            "My job",
-            "My car",
-            "My food"
-          ],
-          "answer": 0,
-          "explanation": "أهلي means my family or family members."
-        }
-      ]
-    },
-    "6": {
-      "vocabulary": [
-        [
-          "البيت",
-          "il-bēt",
-          "The house / home"
-        ],
-        [
-          "أنام",
-          "anām",
-          "I sleep"
-        ],
-        [
-          "أقوم",
-          "agūm",
-          "I get up"
-        ],
-        [
-          "دايم",
-          "dāyim",
-          "Always / usually"
-        ]
-      ],
-      "structure": {
-        "title": "Describe a daily routine",
-        "explanation": "Use a present-tense verb to describe habits. Add a time or frequency word to make the routine more specific.",
-        "pattern": "frequency/time + verb + details",
-        "examples": [
-          {
-            "ar": "دايم أقوم بدري.",
-            "transliteration": "Dāyim agūm badrī.",
-            "en": "I usually get up early.",
-            "breakdown": "دايم marks a regular habit; بدري means early."
-          },
-          {
-            "ar": "أنام عقب الدوام.",
-            "transliteration": "Anām ʿagib id-dawām.",
-            "en": "I sleep after work.",
-            "breakdown": "عقب الدوام means after work."
-          }
-        ]
-      },
-      "notes": [
-        "Present-tense forms may sound different across speakers; focus first on recognising the verb and the context.",
-        "بدري means early. You can use it for getting up, arriving, or doing something ahead of time."
-      ],
-      "exercises": [
-        {
-          "question": "What does أقوم mean in this context?",
-          "options": [
-            "I sleep",
-            "I get up",
-            "I eat",
-            "I leave"
-          ],
-          "answer": 1,
-          "explanation": "أقوم means I get up."
-        },
-        {
-          "question": "Which word means ‘always / usually’?",
-          "options": [
-            "أمس",
-            "دايم",
-            "وين",
-            "عقب"
-          ],
-          "answer": 1,
-          "explanation": "دايم describes a regular habit."
-        },
-        {
-          "question": "Translate ‘I sleep after work.’",
-          "options": [
-            "أنام عقب الدوام",
-            "أقوم بدري",
-            "أبغي البيت",
-            "وين الدوام؟"
-          ],
-          "answer": 0,
-          "explanation": "أنام عقب الدوام means I sleep after work."
-        }
-      ]
-    },
-    "7": {
-      "vocabulary": [
-        [
-          "بكم؟",
-          "bikam?",
-          "How much?"
-        ],
-        [
-          "غالي",
-          "ghālī",
-          "Expensive"
-        ],
-        [
-          "رخيص",
-          "rakhīṣ",
-          "Cheap"
-        ],
-        [
-          "خصم",
-          "khaṣm",
-          "Discount"
-        ]
-      ],
-      "structure": {
-        "title": "Ask about prices and negotiate politely",
-        "explanation": "Start with the price question. If needed, react briefly and ask whether a discount is available.",
-        "pattern": "بكم؟ → وايد غالي / في خصم؟",
-        "examples": [
-          {
-            "ar": "هالشي بكم؟",
-            "transliteration": "Hal-shay bikam?",
-            "en": "How much is this?",
-            "breakdown": "هالشي means this thing/item."
-          },
-          {
-            "ar": "في خصم؟",
-            "transliteration": "Fī khaṣm?",
-            "en": "Is there a discount?",
-            "breakdown": "في asks whether something is available or exists."
-          }
-        ]
-      },
-      "notes": [
-        "A friendly tone matters when discussing prices. A direct phrase can still sound polite with لو سمحت.",
-        "وايد غالي means very expensive; وايد is a common Gulf intensifier meaning very or a lot."
-      ],
-      "exercises": [
-        {
-          "question": "How do you ask ‘How much?’",
-          "options": [
-            "بكم؟",
-            "منو؟",
-            "ليش؟",
-            "متى؟"
-          ],
-          "answer": 0,
-          "explanation": "بكم؟ is the price question."
-        },
-        {
-          "question": "What does غالي mean?",
-          "options": [
-            "Cheap",
-            "Free",
-            "Expensive",
-            "Available"
-          ],
-          "answer": 2,
-          "explanation": "غالي means expensive."
-        },
-        {
-          "question": "Which phrase asks for a discount?",
-          "options": [
-            "في خصم؟",
-            "وين البيت؟",
-            "أنا تعبان",
-            "شو هذا؟"
-          ],
-          "answer": 0,
-          "explanation": "في خصم؟ asks if there is a discount."
-        }
-      ]
-    },
-    "8": {
-      "vocabulary": [
-        [
-          "ما فهمت",
-          "mā fahamt",
-          "I didn't understand"
-        ],
-        [
-          "عيد",
-          "ʿīd",
-          "Repeat / say again"
-        ],
-        [
-          "بشويش",
-          "bishwayyish",
-          "Slowly"
-        ],
-        [
-          "شو يعني؟",
-          "shū yaʿnī?",
-          "What does it mean?"
-        ]
-      ],
-      "structure": {
-        "title": "Repair a conversation",
-        "explanation": "When you miss something, say what went wrong and make a clear request. This keeps the conversation moving.",
-        "pattern": "ما فهمت + ممكن تعيد؟",
-        "examples": [
-          {
-            "ar": "ما فهمت، ممكن تعيد؟",
-            "transliteration": "Mā fahamt, mumkin tʿīd?",
-            "en": "I didn't understand. Could you repeat?",
-            "breakdown": "ممكن makes the request softer."
-          },
-          {
-            "ar": "تكلم بشويش، لو سمحت.",
-            "transliteration": "Tkallam bishwayyish, law samaḥt.",
-            "en": "Speak slowly, please.",
-            "breakdown": "بشويش means slowly or gently."
-          }
-        ]
-      },
-      "notes": [
-        "You do not need perfect Arabic to ask for clarification. Short, clear requests are useful at every level.",
-        "شو يعني؟ is useful for asking the meaning of a word or phrase you have just heard."
-      ],
-      "exercises": [
-        {
-          "question": "Which phrase means ‘I didn't understand’?",
-          "options": [
-            "ما فهمت",
-            "فهمت عليك",
-            "أنا جاهز",
-            "ما عليه"
-          ],
-          "answer": 0,
-          "explanation": "ما فهمت means I didn't understand."
-        },
-        {
-          "question": "How do you ask someone to speak slowly?",
-          "options": [
-            "بكم؟",
-            "تكلم بشويش",
-            "وين؟",
-            "باچر"
-          ],
-          "answer": 1,
-          "explanation": "بشويش means slowly."
-        },
-        {
-          "question": "What does شو يعني؟ ask?",
-          "options": [
-            "Who is it?",
-            "Where is it?",
-            "What does it mean?",
-            "How much is it?"
-          ],
-          "answer": 2,
-          "explanation": "شو يعني؟ asks what something means."
-        }
-      ]
-    },
-    "9": {
-      "vocabulary": [
-        [
-          "دوام",
-          "dawām",
-          "Work / shift"
-        ],
-        [
-          "شغل",
-          "shughl",
-          "Work / task"
-        ],
-        [
-          "مدير",
-          "mudīr",
-          "Manager"
-        ],
-        [
-          "خلصت",
-          "khallaṣt",
-          "I finished"
-        ]
-      ],
-      "structure": {
-        "title": "Talk about your work",
-        "explanation": "Use عندي to say you have something, and خلصت to report that you finished a task. Add the task for clarity.",
-        "pattern": "عندي + work/task · خلصت + task",
-        "examples": [
-          {
-            "ar": "عندي دوام اليوم.",
-            "transliteration": "ʿIndī dawām il-yōm.",
-            "en": "I have work today.",
-            "breakdown": "عندي means I have."
-          },
-          {
-            "ar": "خلصت الشغل.",
-            "transliteration": "Khallaṣt ish-shughl.",
-            "en": "I finished the work.",
-            "breakdown": "خلصت reports completion."
-          }
-        ]
-      },
-      "notes": [
-        "دوام often refers to a workday, shift, or being on duty; شغل can refer to work more generally or a specific task.",
-        "In workplace conversation, a brief status update plus the next step is often more helpful than a long explanation."
-      ],
-      "exercises": [
-        {
-          "question": "What does عندي دوام mean?",
-          "options": [
-            "I have work / a shift",
-            "I finished work",
-            "Where is work?",
-            "I want a discount"
-          ],
-          "answer": 0,
-          "explanation": "عندي دوام means I have work or a shift."
-        },
-        {
-          "question": "Which word can mean ‘task/work’ generally?",
-          "options": [
-            "شغل",
-            "باچر",
-            "أمي",
-            "وين"
-          ],
-          "answer": 0,
-          "explanation": "شغل means work or a task."
-        },
-        {
-          "question": "What does خلصت الشغل mean?",
-          "options": [
-            "I started work",
-            "I finished the work",
-            "I need help",
-            "I am late"
-          ],
-          "answer": 1,
-          "explanation": "خلصت means I finished."
-        }
-      ]
-    },
-    "10": {
-      "vocabulary": [
-        [
-          "ممكن تساعدني؟",
-          "mumkin tsāʿidnī?",
-          "Can you help me?"
-        ],
-        [
-          "لو سمحت",
-          "law samaḥt",
-          "Please (to a man)"
-        ],
-        [
-          "دقيقة",
-          "dagīga",
-          "A minute"
-        ],
-        [
-          "ما عليك أمر",
-          "mā ʿalaik amr",
-          "If you wouldn't mind / please"
-        ]
-      ],
-      "structure": {
-        "title": "Make a polite request",
-        "explanation": "A short softener before the request can make your tone more considerate. State the action clearly.",
-        "pattern": "polite phrase + ممكن + action?",
-        "examples": [
-          {
-            "ar": "ممكن تساعدني، لو سمحت؟",
-            "transliteration": "Mumkin tsāʿidnī, law samaḥt?",
-            "en": "Could you help me, please?",
-            "breakdown": "ممكن frames the request as a possibility."
-          },
-          {
-            "ar": "عطني دقيقة، لو سمحت.",
-            "transliteration": "ʿAṭnī dagīga, law samaḥt.",
-            "en": "Give me a minute, please.",
-            "breakdown": "عطني means give me; دقيقة means a minute."
-          }
-        ]
-      },
-      "notes": [
-        "ما عليك أمر is a polite Gulf expression; use it when you want to soften a request, especially with someone you do not know well.",
-        "Choose the level of formality for the situation. A colleague may be addressed differently from a close friend."
-      ],
-      "exercises": [
-        {
-          "question": "Which phrase means ‘Can you help me?’",
-          "options": [
-            "ممكن تساعدني؟",
-            "شو يعني؟",
-            "بكم؟",
-            "خلصت الشغل"
-          ],
-          "answer": 0,
-          "explanation": "ممكن تساعدني؟ asks for help."
-        },
-        {
-          "question": "What does دقيقة mean?",
-          "options": [
-            "An hour",
-            "A minute",
-            "A week",
-            "A shift"
-          ],
-          "answer": 1,
-          "explanation": "دقيقة means a minute."
-        },
-        {
-          "question": "What is the purpose of لو سمحت in a request?",
-          "options": [
-            "To make it more polite",
-            "To say yesterday",
-            "To ask where",
-            "To say no"
-          ],
-          "answer": 0,
-          "explanation": "It adds politeness."
-        }
-      ]
-    },
-    "11": {
-      "vocabulary": [
-        [
-          "عقبين",
-          "ʿagbayn",
-          "Later / after that"
-        ],
-        [
-          "نتلاقى",
-          "nitlāga",
-          "We meet"
-        ],
-        [
-          "فاضي",
-          "fāḍī",
-          "Free / available"
-        ],
-        [
-          "موعد",
-          "mawʿid",
-          "Appointment / time to meet"
-        ]
-      ],
-      "structure": {
-        "title": "Suggest and arrange a plan",
-        "explanation": "Ask whether someone is available, then suggest a time or place. A question makes it easy for the other person to respond.",
-        "pattern": "إنت فاضي + time? → نتلاقى + time/place",
-        "examples": [
-          {
-            "ar": "إنت فاضي باچر؟",
-            "transliteration": "Int fāḍī bācher?",
-            "en": "Are you free tomorrow?",
-            "breakdown": "فاضي means free or available."
-          },
-          {
-            "ar": "نتلاقى عقب الدوام؟",
-            "transliteration": "Nitlāga ʿagib id-dawām?",
-            "en": "Shall we meet after work?",
-            "breakdown": "نتلاقى means we meet / let's meet."
-          }
-        ]
-      },
-      "notes": [
-        "When speaking to a woman, you may hear فاضية (fāḍya) instead of فاضي.",
-        "Confirm the time and place clearly to avoid misunderstandings, especially when plans change."
-      ],
-      "exercises": [
-        {
-          "question": "What does فاضي mean?",
-          "options": [
-            "Busy",
-            "Available / free",
-            "Expensive",
-            "Lost"
-          ],
-          "answer": 1,
-          "explanation": "فاضي means available or free."
-        },
-        {
-          "question": "Which sentence asks ‘Are you free tomorrow?’",
-          "options": [
-            "إنت فاضي باچر؟",
-            "شو هذا؟",
-            "ما فهمت",
-            "بكم؟"
-          ],
-          "answer": 0,
-          "explanation": "إنت فاضي باچر؟ asks if someone is free tomorrow."
-        },
-        {
-          "question": "What does نتلاقى mean?",
-          "options": [
-            "We meet",
-            "We sleep",
-            "We buy",
-            "We forget"
-          ],
-          "answer": 0,
-          "explanation": "نتلاقى means we meet or let's meet."
-        }
-      ]
-    },
-    "12": {
-      "vocabulary": [
-        [
-          "لذيذ",
-          "ladhīdh",
-          "Delicious"
-        ],
-        [
-          "أطلب",
-          "aṭlub",
-          "I order"
-        ],
-        [
-          "بدون",
-          "bidūn",
-          "Without"
-        ],
-        [
-          "الحساب",
-          "il-ḥisāb",
-          "The bill"
-        ]
-      ],
-      "structure": {
-        "title": "Order food and share preferences",
-        "explanation": "Use أبغي or أطلب to order. Put بدون before an ingredient or item you want left out.",
-        "pattern": "أبغي / أطلب + item · بدون + ingredient",
-        "examples": [
-          {
-            "ar": "أبغي قهوة بدون سكر.",
-            "transliteration": "Abghī gahwa bidūn sukkar.",
-            "en": "I'd like coffee without sugar.",
-            "breakdown": "بدون سكر means without sugar."
-          },
-          {
-            "ar": "الأكل وايد لذيذ.",
-            "transliteration": "Il-akil wāyid ladhīdh.",
-            "en": "The food is very delicious.",
-            "breakdown": "وايد intensifies لذيذ."
-          }
-        ]
-      },
-      "notes": [
-        "ماي is a common Emirati/Gulf word for water; you may hear different pronunciation in other Arabic dialects.",
-        "To ask for the bill, you can say الحساب لو سمحت. In casual settings, tone and timing are important too."
-      ],
-      "exercises": [
-        {
-          "question": "What does بدون mean?",
-          "options": [
-            "With extra",
-            "Without",
-            "Very",
-            "Today"
-          ],
-          "answer": 1,
-          "explanation": "بدون means without."
-        },
-        {
-          "question": "How would you ask for coffee without sugar?",
-          "options": [
-            "أبغي قهوة بدون سكر",
-            "وين القهوة؟",
-            "ما فهمت القهوة",
-            "القهوة باچر"
-          ],
-          "answer": 0,
-          "explanation": "بدون سكر means without sugar."
-        },
-        {
-          "question": "What does الحساب refer to in a café?",
-          "options": [
-            "The menu",
-            "The bill",
-            "The kitchen",
-            "The table"
-          ],
-          "answer": 1,
-          "explanation": "الحساب means the bill."
-        }
-      ]
-    },
-    "13": {
-      "vocabulary": [
-        [
-          "لأن",
-          "li-ann",
-          "Because"
-        ],
-        [
-          "عشان",
-          "ʿashān",
-          "Because / so that"
-        ],
-        [
-          "عقب",
-          "ʿagib",
-          "After / later"
-        ],
-        [
-          "بسبب",
-          "bisabab",
-          "Because of"
-        ]
-      ],
-      "structure": {
-        "title": "Explain a reason",
-        "explanation": "Link an outcome to its reason with لأن or عشان. A short reason is usually clearer than several loosely connected statements.",
-        "pattern": "result + لأن + reason",
-        "examples": [
-          {
-            "ar": "تأخرت لأن الشارع زحمة.",
-            "transliteration": "Ta'akhkhart li-ann ish-shāriʿ zaḥma.",
-            "en": "I was late because the road was busy.",
-            "breakdown": "لأن introduces the reason."
-          },
-          {
-            "ar": "ما طلعت عشان كنت تعبان.",
-            "transliteration": "Mā ṭiliʿt ʿashān kunt taʿbān.",
-            "en": "I didn't go out because I was tired.",
-            "breakdown": "عشان can introduce a reason in casual speech."
-          }
-        ]
-      },
-      "notes": [
-        "لأن is a useful general-purpose ‘because’; عشان is common in conversational Gulf Arabic, though its exact use depends on context.",
-        "When explaining a problem at work, say the result, the reason, and—if useful—what you will do next."
-      ],
-      "exercises": [
-        {
-          "question": "Which word introduces a reason meaning ‘because’?",
-          "options": [
-            "لأن",
-            "وين",
-            "منو",
-            "باچر"
-          ],
-          "answer": 0,
-          "explanation": "لأن introduces a reason."
-        },
-        {
-          "question": "What does تأخرت mean?",
-          "options": [
-            "I arrived early",
-            "I was late",
-            "I forgot",
-            "I finished"
-          ],
-          "answer": 1,
-          "explanation": "تأخرت means I was late."
-        },
-        {
-          "question": "Choose the sentence ‘I didn't go out because I was tired.’",
-          "options": [
-            "ما طلعت عشان كنت تعبان",
-            "أنا فاضي باچر",
-            "أبغي ماي",
-            "شو يعني؟"
-          ],
-          "answer": 0,
-          "explanation": "The sentence connects not going out with being tired."
-        }
-      ]
-    },
-    "14": {
-      "vocabulary": [
-        [
-          "يعني",
-          "yaʿnī",
-          "Meaning / I mean / so"
-        ],
-        [
-          "تقريباً",
-          "tagrīban",
-          "Approximately"
-        ],
-        [
-          "مثلاً",
-          "mathalan",
-          "For example"
-        ],
-        [
-          "قصدك؟",
-          "gaṣdak?",
-          "You mean…?"
-        ]
-      ],
-      "structure": {
-        "title": "Use يعني naturally",
-        "explanation": "يعني is a flexible conversation word. It can clarify an idea, introduce a paraphrase, or give you a moment to organise your thoughts.",
-        "pattern": "idea + يعني + clarification/example",
-        "examples": [
-          {
-            "ar": "هو مشغول، يعني ما يقدر يي.",
-            "transliteration": "Huwa mashghūl, yaʿnī mā yigdir yī.",
-            "en": "He's busy, meaning he can't come.",
-            "breakdown": "يعني introduces a clarification."
-          },
-          {
-            "ar": "تقصد اليوم، يعني الحين؟",
-            "transliteration": "Tigṣid il-yōm, yaʿnī il-ḥīn?",
-            "en": "You mean today—like, now?",
-            "breakdown": "يعني helps check the intended meaning."
-          }
-        ]
-      },
-      "notes": [
-        "يعني can function like ‘I mean’, ‘that is’, or ‘so’; don't translate it identically every time.",
-        "It is common in spontaneous speech, but repeated use in every sentence can sound hesitant. Use it when it genuinely helps clarify."
-      ],
-      "exercises": [
-        {
-          "question": "In conversation, يعني can often mean…",
-          "options": [
-            "Only yesterday",
-            "I mean / that is",
-            "Goodbye",
-            "How much"
-          ],
-          "answer": 1,
-          "explanation": "Its meaning depends on the conversational context."
-        },
-        {
-          "question": "Which word means ‘for example’?",
-          "options": [
-            "تقريباً",
-            "مثلاً",
-            "قصدك",
-            "عقب"
-          ],
-          "answer": 1,
-          "explanation": "مثلاً means for example."
-        },
-        {
-          "question": "What is قصدك؟ used to check?",
-          "options": [
-            "What you mean",
-            "The price",
-            "The time",
-            "The speaker's name"
-          ],
-          "answer": 0,
-          "explanation": "قصدك؟ asks about the intended meaning."
-        }
-      ]
-    },
-    "15": {
-      "vocabulary": [
-        [
-          "صار",
-          "ṣār",
-          "Happened / became"
-        ],
-        [
-          "بعدين",
-          "baʿdēn",
-          "Then / later"
-        ],
-        [
-          "فجأة",
-          "faj'a",
-          "Suddenly"
-        ],
-        [
-          "الموضوع",
-          "il-mawḍūʿ",
-          "The matter / situation"
-        ]
-      ],
-      "structure": {
-        "title": "Tell a short story in sequence",
-        "explanation": "Give the setting, describe what happened, then connect events with ‘then’ or ‘suddenly’. Keep the order clear for your listener.",
-        "pattern": "setting → صار… → بعدين…",
-        "examples": [
-          {
-            "ar": "كنت في الدوام، وفجأة صار شي.",
-            "transliteration": "Kunt fid-dawām, w-faj'a ṣār shay.",
-            "en": "I was at work, and suddenly something happened.",
-            "breakdown": "فجأة marks an unexpected event."
-          },
-          {
-            "ar": "بعدين كلمت المدير.",
-            "transliteration": "Baʿdēn kallamt il-mudīr.",
-            "en": "Then I spoke to the manager.",
-            "breakdown": "بعدين moves the story forward."
-          }
-        ]
-      },
-      "notes": [
-        "صار may mean happened or became, depending on the sentence.",
-        "For a clear story, focus on the key event and the result instead of trying to translate every English filler word."
-      ],
-      "exercises": [
-        {
-          "question": "What does فجأة mean?",
-          "options": [
-            "Slowly",
-            "Suddenly",
-            "Tomorrow",
-            "Usually"
-          ],
-          "answer": 1,
-          "explanation": "فجأة means suddenly."
-        },
-        {
-          "question": "Which word helps continue a story with ‘then’?",
-          "options": [
-            "بعدين",
-            "ليش",
             "منو",
             "زين"
           ],
           "answer": 0,
-          "explanation": "بعدين means then or later."
+          "feedback": "وين means where."
         },
         {
-          "question": "In a story, صار شي can mean…",
+          "type": "multiple-choice",
+          "question": "Complete the question: ___ هذا؟ (What is this?)",
           "options": [
-            "Something happened",
-            "I want something",
+            "شو",
+            "وين",
+            "منو",
+            "متى"
+          ],
+          "answer": 0,
+          "feedback": "شو هذا؟ means “What is this?”"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Wants and everyday needs",
+      "objective": "Say what you want, need, have, or do not have.",
+      "vocabulary": [
+        {
+          "key": "أبغي",
+          "ar": "أبغي",
+          "trans": "abghī",
+          "meaning": "I want",
+          "detail": "Very common Emirati way to say “I want”.",
+          "exampleAr": "أبغي ماي",
+          "exampleTrans": "Abghī māy",
+          "exampleEn": "I want water."
+        },
+        {
+          "key": "أحتاج",
+          "ar": "أحتاج",
+          "trans": "aḥtāj",
+          "meaning": "I need",
+          "detail": "A useful verb for needs; أبغي can also be used for polite requests.",
+          "exampleAr": "أحتاج مساعدة",
+          "exampleTrans": "Aḥtāj musāʿada",
+          "exampleEn": "I need help."
+        },
+        {
+          "key": "ماي",
+          "ar": "ماي",
+          "trans": "māy",
+          "meaning": "Water",
+          "detail": "Everyday Emirati word for water.",
+          "exampleAr": "أبغي ماي بارد",
+          "exampleTrans": "Abghī māy bāred",
+          "exampleEn": "I want cold water."
+        },
+        {
+          "key": "قهوة",
+          "ar": "قهوة",
+          "trans": "gahwa",
+          "meaning": "Coffee",
+          "detail": "Common Gulf pronunciation often sounds like gahwa.",
+          "exampleAr": "أبغي قهوة",
+          "exampleTrans": "Abghī gahwa",
+          "exampleEn": "I want coffee."
+        },
+        {
+          "key": "عندي",
+          "ar": "عندي",
+          "trans": "ʿindī",
+          "meaning": "I have / with me",
+          "detail": "Literally expresses possession or something being with you.",
+          "exampleAr": "عندي سؤال",
+          "exampleTrans": "ʿIndī suʾāl",
+          "exampleEn": "I have a question."
+        },
+        {
+          "key": "ما عندي",
+          "ar": "ما عندي",
+          "trans": "mā ʿindī",
+          "meaning": "I don’t have",
+          "detail": "Negates possession.",
+          "exampleAr": "ما عندي وقت",
+          "exampleTrans": "Mā ʿindī wagt",
+          "exampleEn": "I don’t have time."
+        },
+        {
+          "key": "أريد",
+          "ar": "أريد",
+          "trans": "arīd",
+          "meaning": "I want",
+          "detail": "More formal/standard-sounding than أبغي in many everyday Emirati settings.",
+          "exampleAr": "أريد أن أتعلم",
+          "exampleTrans": "Arīd an ataʿallam",
+          "exampleEn": "I want to learn."
+        },
+        {
+          "key": "لو سمحت",
+          "ar": "لو سمحت",
+          "trans": "law samaḥt",
+          "meaning": "Please / excuse me",
+          "detail": "Polite phrase used when addressing a man; forms can vary.",
+          "exampleAr": "لو سمحت، أبغي ماي",
+          "exampleTrans": "Law samaḥt, abghī māy",
+          "exampleEn": "Please, I’d like water."
+        },
+        {
+          "key": "بارد",
+          "ar": "بارد",
+          "trans": "bāred",
+          "meaning": "Cold",
+          "detail": "Used for cold drinks or things.",
+          "exampleAr": "ماي بارد",
+          "exampleTrans": "Māy bāred",
+          "exampleEn": "Cold water."
+        },
+        {
+          "key": "وقت",
+          "ar": "وقت",
+          "trans": "wagt",
+          "meaning": "Time",
+          "detail": "Common everyday noun.",
+          "exampleAr": "ما عندي وقت",
+          "exampleTrans": "Mā ʿindī wagt",
+          "exampleEn": "I don’t have time."
+        }
+      ],
+      "structure": {
+        "pattern": "أبغي + thing",
+        "explanation": "A common request pattern is “أبغي + thing” (I want + thing). To say you have something, use “عندي + thing”; to say you do not have it, add ما before عندي.",
+        "exampleAr": "أنا أبغي ماي",
+        "exampleTrans": "Ana abghī māy",
+        "exampleEn": "I want water."
+      },
+      "notes": [
+        {
+          "title": "Wanting",
+          "text": "أبغي + noun",
+          "detail": "أبغي ماي = I want water. The noun comes after أبغي."
+        },
+        {
+          "title": "Possession",
+          "text": "عندي + noun",
+          "detail": "عندي سؤال = I have a question. ما عندي وقت = I don’t have time."
+        },
+        {
+          "title": "Politeness",
+          "text": "لو سمحت، ...",
+          "detail": "Add this before a request to soften it. Use an appropriate form for the person you address."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "multiple-choice",
+          "question": "What does أبغي mean?",
+          "options": [
+            "I want",
+            "I went",
+            "Where",
+            "Who"
+          ],
+          "answer": 0,
+          "feedback": "أبغي is the common Emirati “I want”."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "How do you say “I don’t have time”?",
+          "options": [
+            "ما عندي وقت",
+            "أبغي وقت",
+            "وين الوقت؟",
+            "وقت زين"
+          ],
+          "answer": 0,
+          "feedback": "ما عندي وقت = I don’t have time."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Today, yesterday, and later",
+      "objective": "Talk about time and simple plans.",
+      "vocabulary": [
+        {
+          "key": "اليوم",
+          "ar": "اليوم",
+          "trans": "il-yōm",
+          "meaning": "Today",
+          "detail": "Use it to anchor an action to today.",
+          "exampleAr": "اليوم عندي شغل",
+          "exampleTrans": "Il-yōm ʿindī shughl",
+          "exampleEn": "I have work today."
+        },
+        {
+          "key": "أمس",
+          "ar": "أمس",
+          "trans": "ams",
+          "meaning": "Yesterday",
+          "detail": "Common word for yesterday.",
+          "exampleAr": "أمس كنت في البيت",
+          "exampleTrans": "Ams kunt fil-bēt",
+          "exampleEn": "Yesterday I was at home."
+        },
+        {
+          "key": "باچر",
+          "ar": "باچر",
+          "trans": "bācher",
+          "meaning": "Tomorrow",
+          "detail": "A characteristic Gulf/Emirati word for tomorrow.",
+          "exampleAr": "بشوفك باچر",
+          "exampleTrans": "Bashūfak bācher",
+          "exampleEn": "I’ll see you tomorrow."
+        },
+        {
+          "key": "عقب",
+          "ar": "عقب",
+          "trans": "ʿagib",
+          "meaning": "After / later",
+          "detail": "Meaning depends on context; can mean afterwards.",
+          "exampleAr": "عقب الشغل",
+          "exampleTrans": "ʿAgib ish-shughl",
+          "exampleEn": "After work."
+        },
+        {
+          "key": "الحين",
+          "ar": "الحين",
+          "trans": "il-ḥīn",
+          "meaning": "Now",
+          "detail": "Very common Emirati/Gulf time word.",
+          "exampleAr": "بروح الحين",
+          "exampleTrans": "Barūḥ il-ḥīn",
+          "exampleEn": "I’m going now."
+        },
+        {
+          "key": "بعدين",
+          "ar": "بعدين",
+          "trans": "baʿdēn",
+          "meaning": "Later / afterwards",
+          "detail": "Useful for delaying or sequencing an action.",
+          "exampleAr": "بعدين أكلمك",
+          "exampleTrans": "Baʿdēn akallimak",
+          "exampleEn": "I’ll call you later."
+        },
+        {
+          "key": "قبل",
+          "ar": "قبل",
+          "trans": "gabil",
+          "meaning": "Before",
+          "detail": "Often used with a noun or event.",
+          "exampleAr": "قبل الشغل",
+          "exampleTrans": "Gabil ish-shughl",
+          "exampleEn": "Before work."
+        },
+        {
+          "key": "عقب الشغل",
+          "ar": "عقب الشغل",
+          "trans": "ʿagib ish-shughl",
+          "meaning": "After work",
+          "detail": "A common time phrase.",
+          "exampleAr": "بكلمك عقب الشغل",
+          "exampleTrans": "Bakallimak ʿagib ish-shughl",
+          "exampleEn": "I’ll talk to you after work."
+        },
+        {
+          "key": "بروح",
+          "ar": "بروح",
+          "trans": "barūḥ",
+          "meaning": "I’m going / I’ll go",
+          "detail": "Colloquial future/intention form in context.",
+          "exampleAr": "بروح البيت",
+          "exampleTrans": "Barūḥ il-bēt",
+          "exampleEn": "I’m going home."
+        },
+        {
+          "key": "بشوفك",
+          "ar": "بشوفك",
+          "trans": "bashūfak",
+          "meaning": "I’ll see you",
+          "detail": "Common informal future expression addressed to a man.",
+          "exampleAr": "بشوفك باچر",
+          "exampleTrans": "Bashūfak bācher",
+          "exampleEn": "I’ll see you tomorrow."
+        }
+      ],
+      "structure": {
+        "pattern": "Time word + action / plan",
+        "explanation": "Time words can go at the beginning or end of a sentence. In colloquial speech, a b- prefix on a verb can signal an intended or future action, as in بروح (“I’ll go / I’m going”).",
+        "exampleAr": "بشوفك باچر",
+        "exampleTrans": "Bashūfak bācher",
+        "exampleEn": "I’ll see you tomorrow."
+      },
+      "notes": [
+        {
+          "title": "Time first",
+          "text": "اليوم عندي شغل",
+          "detail": "Starting with اليوم makes the time frame clear."
+        },
+        {
+          "title": "Future/intention",
+          "text": "بـ + verb",
+          "detail": "Forms such as بروح and بشوفك are common in everyday Gulf speech. Learn them as whole useful forms first."
+        },
+        {
+          "title": "Sequencing",
+          "text": "قبل / عقب / بعدين",
+          "detail": "Use these to explain when something happens relative to another event."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "multiple-choice",
+          "question": "Which word means “tomorrow” in Emirati Arabic?",
+          "options": [
+            "باچر",
+            "أمس",
+            "الحين",
+            "قبل"
+          ],
+          "answer": 0,
+          "feedback": "باچر means tomorrow."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "What does الحين mean?",
+          "options": [
+            "Now",
+            "Yesterday",
+            "After",
+            "House"
+          ],
+          "answer": 0,
+          "feedback": "الحين means now."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Family and friends",
+      "objective": "Talk about family members and people close to you.",
+      "vocabulary": [
+        {
+          "key": "أهل",
+          "ar": "أهل",
+          "trans": "ahl",
+          "meaning": "Family / people at home",
+          "detail": "Often used in expressions about family or household.",
+          "exampleAr": "شلون الأهل؟",
+          "exampleTrans": "Shlōn il-ahl?",
+          "exampleEn": "How is the family?"
+        },
+        {
+          "key": "أمي",
+          "ar": "أمي",
+          "trans": "ummī",
+          "meaning": "My mother",
+          "detail": "أم means mother; ـي means my.",
+          "exampleAr": "أمي في البيت",
+          "exampleTrans": "Ummī fil-bēt",
+          "exampleEn": "My mother is at home."
+        },
+        {
+          "key": "أبوي",
+          "ar": "أبوي",
+          "trans": "abūy",
+          "meaning": "My father",
+          "detail": "A common colloquial word for my father.",
+          "exampleAr": "أبوي في الدوام",
+          "exampleTrans": "Abūy fid-dawām",
+          "exampleEn": "My father is at work."
+        },
+        {
+          "key": "أخوي",
+          "ar": "أخوي",
+          "trans": "akhūy",
+          "meaning": "My brother",
+          "detail": "A common colloquial word for my brother.",
+          "exampleAr": "أخوي يدرس",
+          "exampleTrans": "Akhūy yidris",
+          "exampleEn": "My brother studies."
+        },
+        {
+          "key": "أختي",
+          "ar": "أختي",
+          "trans": "ukhtī",
+          "meaning": "My sister",
+          "detail": "The ـي ending expresses “my”.",
+          "exampleAr": "أختي في الجامعة",
+          "exampleTrans": "Ukhtī fil-jāmiʿa",
+          "exampleEn": "My sister is at university."
+        },
+        {
+          "key": "صديق",
+          "ar": "صديق",
+          "trans": "ṣadīg",
+          "meaning": "Friend (male)",
+          "detail": "You may also hear ربيع as a colloquial friend/buddy word in the Gulf.",
+          "exampleAr": "صديقي هني",
+          "exampleTrans": "Ṣadīgī hini",
+          "exampleEn": "My friend is here."
+        },
+        {
+          "key": "ربيعي",
+          "ar": "ربيعي",
+          "trans": "rabīʿī",
+          "meaning": "My friend / buddy",
+          "detail": "A common Gulf colloquial term, especially among men.",
+          "exampleAr": "هذا ربعي",
+          "exampleTrans": "Hātha rabʿī",
+          "exampleEn": "This is my friend."
+        },
+        {
+          "key": "مع",
+          "ar": "مع",
+          "trans": "maʿ",
+          "meaning": "With",
+          "detail": "Shows who someone is together with.",
+          "exampleAr": "أنا مع أخوي",
+          "exampleTrans": "Ana maʿ akhūy",
+          "exampleEn": "I’m with my brother."
+        },
+        {
+          "key": "كلهم",
+          "ar": "كلهم",
+          "trans": "killhum",
+          "meaning": "All of them",
+          "detail": "Used when referring to a group.",
+          "exampleAr": "كلهم بخير",
+          "exampleTrans": "Killhum bikhēr",
+          "exampleEn": "They are all fine."
+        },
+        {
+          "key": "بخير",
+          "ar": "بخير",
+          "trans": "bikhēr",
+          "meaning": "Well / fine",
+          "detail": "Often used when asking or telling how someone is.",
+          "exampleAr": "الأهل بخير",
+          "exampleTrans": "Il-ahl bikhēr",
+          "exampleEn": "The family is well."
+        }
+      ],
+      "structure": {
+        "pattern": "Person + family word / possessive form",
+        "explanation": "Possessive endings are very useful. For example, ـي often means “my”: أمي (my mother), أخوي (my brother), and أختي (my sister). Learn these common family words as complete forms.",
+        "exampleAr": "أمي في البيت",
+        "exampleTrans": "Ummī fil-bēt",
+        "exampleEn": "My mother is at home."
+      },
+      "notes": [
+        {
+          "title": "My + family member",
+          "text": "أم + ي → أمي",
+          "detail": "The ending ـي means “my” in many nouns."
+        },
+        {
+          "title": "With someone",
+          "text": "مع + person",
+          "detail": "أنا مع أخوي = I’m with my brother."
+        },
+        {
+          "title": "Asking about family",
+          "text": "شلون الأهل؟",
+          "detail": "A friendly way to ask how someone’s family is doing; wording varies by speaker."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "multiple-choice",
+          "question": "What does أخوي mean?",
+          "options": [
+            "My brother",
+            "My sister",
+            "My father",
+            "My friend"
+          ],
+          "answer": 0,
+          "feedback": "أخوي means my brother."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "Which ending often means “my”?",
+          "options": [
+            "ـي",
+            "وين",
+            "شو",
+            "ما"
+          ],
+          "answer": 0,
+          "feedback": "The suffix ـي often means “my”."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "At home and daily routines",
+      "objective": "Describe home, daily activities, and routines.",
+      "vocabulary": [
+        {
+          "key": "غرفة",
+          "ar": "غرفة",
+          "trans": "ghurfa",
+          "meaning": "Room",
+          "detail": "A room in a house or building.",
+          "exampleAr": "غرفتي صغيرة",
+          "exampleTrans": "Ghurftī ṣghīra",
+          "exampleEn": "My room is small."
+        },
+        {
+          "key": "مطبخ",
+          "ar": "مطبخ",
+          "trans": "maṭbakh",
+          "meaning": "Kitchen",
+          "detail": "The place where food is prepared.",
+          "exampleAr": "المطبخ هني",
+          "exampleTrans": "Il-maṭbakh hini",
+          "exampleEn": "The kitchen is here."
+        },
+        {
+          "key": "باب",
+          "ar": "باب",
+          "trans": "bāb",
+          "meaning": "Door",
+          "detail": "Common household word.",
+          "exampleAr": "سكر الباب",
+          "exampleTrans": "Sakkir il-bāb",
+          "exampleEn": "Close the door."
+        },
+        {
+          "key": "افتح",
+          "ar": "افتح",
+          "trans": "iftaḥ",
+          "meaning": "Open!",
+          "detail": "An imperative commonly used for instructions.",
+          "exampleAr": "افتح الباب",
+          "exampleTrans": "Iftaḥ il-bāb",
+          "exampleEn": "Open the door."
+        },
+        {
+          "key": "سكر",
+          "ar": "سكر",
+          "trans": "sakkir",
+          "meaning": "Close / shut",
+          "detail": "Common spoken command.",
+          "exampleAr": "سكر الباب",
+          "exampleTrans": "Sakkir il-bāb",
+          "exampleEn": "Close the door."
+        },
+        {
+          "key": "أنام",
+          "ar": "أنام",
+          "trans": "anām",
+          "meaning": "I sleep",
+          "detail": "First-person form in a simple present statement.",
+          "exampleAr": "أنام متأخر",
+          "exampleTrans": "Anām mitʾakhkhar",
+          "exampleEn": "I sleep late."
+        },
+        {
+          "key": "أصحى",
+          "ar": "أصحى",
+          "trans": "aṣḥā",
+          "meaning": "I wake up",
+          "detail": "Colloquial everyday verb.",
+          "exampleAr": "أصحى الصبح",
+          "exampleTrans": "Aṣḥā iṣ-ṣubḥ",
+          "exampleEn": "I wake up in the morning."
+        },
+        {
+          "key": "الصبح",
+          "ar": "الصبح",
+          "trans": "iṣ-ṣubḥ",
+          "meaning": "Morning",
+          "detail": "Used in time expressions.",
+          "exampleAr": "أداوم الصبح",
+          "exampleTrans": "Adāwim iṣ-ṣubḥ",
+          "exampleEn": "I work in the morning."
+        },
+        {
+          "key": "كل يوم",
+          "ar": "كل يوم",
+          "trans": "kil yōm",
+          "meaning": "Every day",
+          "detail": "Marks a regular routine.",
+          "exampleAr": "أمشي كل يوم",
+          "exampleTrans": "Amshī kil yōm",
+          "exampleEn": "I walk every day."
+        },
+        {
+          "key": "أرتب",
+          "ar": "أرتب",
+          "trans": "arttib",
+          "meaning": "I tidy / arrange",
+          "detail": "Useful for housework and organizing things.",
+          "exampleAr": "أرتب غرفتي",
+          "exampleTrans": "Arattib ghurftī",
+          "exampleEn": "I tidy my room."
+        }
+      ],
+      "structure": {
+        "pattern": "Verb + time phrase / object",
+        "explanation": "Daily routines are often described with a simple verb and an optional time phrase. Commands such as افتح and سكر are direct; add لو سمحت to make a request softer.",
+        "exampleAr": "أصحى الصبح",
+        "exampleTrans": "Aṣḥā iṣ-ṣubḥ",
+        "exampleEn": "I wake up in the morning."
+      },
+      "notes": [
+        {
+          "title": "Routine",
+          "text": "verb + time",
+          "detail": "أصحى الصبح = I wake up in the morning."
+        },
+        {
+          "title": "Possession",
+          "text": "غرفتي",
+          "detail": "غرفة + ـي becomes غرفتي, “my room”."
+        },
+        {
+          "title": "Commands",
+          "text": "افتح الباب / سكر الباب",
+          "detail": "These are direct commands. For a polite request, use لو سمحت before or after the command."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "multiple-choice",
+          "question": "What does كل يوم mean?",
+          "options": [
+            "Every day",
+            "Tomorrow",
+            "At home",
+            "After work"
+          ],
+          "answer": 0,
+          "feedback": "كل يوم means every day."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "Which is a direct command meaning “open”?",
+          "options": [
+            "افتح",
+            "أنام",
+            "أصحى",
+            "غرفة"
+          ],
+          "answer": 0,
+          "feedback": "افتح means open!"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Shopping and prices",
+      "objective": "Ask how much things cost and talk about buying.",
+      "vocabulary": [
+        {
+          "key": "بكم؟",
+          "ar": "بكم؟",
+          "trans": "bikam?",
+          "meaning": "How much?",
+          "detail": "Used to ask the price.",
+          "exampleAr": "بكم هذا؟",
+          "exampleTrans": "Bikam hātha?",
+          "exampleEn": "How much is this?"
+        },
+        {
+          "key": "كم",
+          "ar": "كم",
+          "trans": "kam",
+          "meaning": "How many / how much",
+          "detail": "A question word for quantity or price.",
+          "exampleAr": "كم السعر؟",
+          "exampleTrans": "Kam is-siʿr?",
+          "exampleEn": "What is the price?"
+        },
+        {
+          "key": "سعر",
+          "ar": "سعر",
+          "trans": "siʿr",
+          "meaning": "Price",
+          "detail": "Often used with the definite article السعر.",
+          "exampleAr": "السعر غالي",
+          "exampleTrans": "Is-siʿr ghālī",
+          "exampleEn": "The price is expensive."
+        },
+        {
+          "key": "غالي",
+          "ar": "غالي",
+          "trans": "ghālī",
+          "meaning": "Expensive",
+          "detail": "Used for a high price.",
+          "exampleAr": "هذا وايد غالي",
+          "exampleTrans": "Hātha wāyid ghālī",
+          "exampleEn": "This is very expensive."
+        },
+        {
+          "key": "رخيص",
+          "ar": "رخيص",
+          "trans": "rakhīṣ",
+          "meaning": "Cheap / inexpensive",
+          "detail": "Used for a low price.",
+          "exampleAr": "هذا رخيص",
+          "exampleTrans": "Hātha rakhīṣ",
+          "exampleEn": "This is cheap."
+        },
+        {
+          "key": "أبغي هذا",
+          "ar": "أبغي هذا",
+          "trans": "abghī hātha",
+          "meaning": "I want this",
+          "detail": "A practical shopping phrase.",
+          "exampleAr": "أبغي هذا لو سمحت",
+          "exampleTrans": "Abghī hātha law samaḥt",
+          "exampleEn": "I’d like this, please."
+        },
+        {
+          "key": "فلوس",
+          "ar": "فلوس",
+          "trans": "flūs",
+          "meaning": "Money",
+          "detail": "Common colloquial word for money.",
+          "exampleAr": "ما عندي فلوس",
+          "exampleTrans": "Mā ʿindī flūs",
+          "exampleEn": "I don’t have money."
+        },
+        {
+          "key": "كاش",
+          "ar": "كاش",
+          "trans": "kāsh",
+          "meaning": "Cash",
+          "detail": "Common borrowed word.",
+          "exampleAr": "تدفع كاش؟",
+          "exampleTrans": "Tidfaʿ kāsh?",
+          "exampleEn": "Do you pay cash?"
+        },
+        {
+          "key": "بطاقة",
+          "ar": "بطاقة",
+          "trans": "biṭāqa",
+          "meaning": "Card",
+          "detail": "May refer to a payment card depending on context.",
+          "exampleAr": "أدفع بالبطاقة",
+          "exampleTrans": "Adfaʿ bil-biṭāqa",
+          "exampleEn": "I pay by card."
+        },
+        {
+          "key": "أدفع",
+          "ar": "أدفع",
+          "trans": "adfaʿ",
+          "meaning": "I pay",
+          "detail": "Useful when discussing payment.",
+          "exampleAr": "أدفع الحين",
+          "exampleTrans": "Adfaʿ il-ḥīn",
+          "exampleEn": "I’ll pay now."
+        }
+      ],
+      "structure": {
+        "pattern": "Price question: بكم + item؟",
+        "explanation": "To ask a price, say بكم هذا؟ (“How much is this?”). To describe the price, use غالي (expensive) or رخيص (cheap). وايد can mean “very / a lot” before an adjective.",
+        "exampleAr": "بكم هذا؟",
+        "exampleTrans": "Bikam hātha?",
+        "exampleEn": "How much is this?"
+      },
+      "notes": [
+        {
+          "title": "Price question",
+          "text": "بكم + item؟",
+          "detail": "بكم هذا؟ = How much is this?"
+        },
+        {
+          "title": "Intensifier",
+          "text": "وايد + adjective",
+          "detail": "وايد غالي = very expensive. In other contexts وايد can mean a lot/many."
+        },
+        {
+          "title": "Payment",
+          "text": "أدفع + method",
+          "detail": "أدفع بالبطاقة = I pay by card. The ب in بالبطاقة means “by/with” here."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "multiple-choice",
+          "question": "What does بكم؟ ask?",
+          "options": [
+            "How much?",
+            "Where?",
+            "Who?",
+            "When?"
+          ],
+          "answer": 0,
+          "feedback": "بكم؟ is used to ask a price."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "وايد غالي means…",
+          "options": [
+            "Very expensive",
+            "Very cheap",
+            "Pay by card",
+            "How much?"
+          ],
+          "answer": 0,
+          "feedback": "وايد means very/a lot, and غالي means expensive."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "When you don’t understand",
+      "objective": "Ask people to repeat, slow down, or explain.",
+      "vocabulary": [
+        {
+          "key": "ما فهمت",
+          "ar": "ما فهمت",
+          "trans": "mā fahimt",
+          "meaning": "I didn’t understand",
+          "detail": "A useful phrase when you missed something.",
+          "exampleAr": "آسف، ما فهمت",
+          "exampleTrans": "Āsif, mā fahimt",
+          "exampleEn": "Sorry, I didn’t understand."
+        },
+        {
+          "key": "عيد",
+          "ar": "عيد",
+          "trans": "ʿīd",
+          "meaning": "Repeat!",
+          "detail": "A direct instruction; soften it when speaking politely.",
+          "exampleAr": "ممكن تعيد؟",
+          "exampleTrans": "Mumkin tʿīd?",
+          "exampleEn": "Could you repeat?"
+        },
+        {
+          "key": "مرة ثانية",
+          "ar": "مرة ثانية",
+          "trans": "marra thānya",
+          "meaning": "One more time / again",
+          "detail": "Used to request repetition.",
+          "exampleAr": "قول مرة ثانية",
+          "exampleTrans": "Gūl marra thānya",
+          "exampleEn": "Say it one more time."
+        },
+        {
+          "key": "بشويش",
+          "ar": "بشويش",
+          "trans": "b-shwēsh",
+          "meaning": "Slowly / gently",
+          "detail": "Common way to ask someone to slow down.",
+          "exampleAr": "تكلم بشويش",
+          "exampleTrans": "Tkallam b-shwēsh",
+          "exampleEn": "Speak slowly."
+        },
+        {
+          "key": "ممكن",
+          "ar": "ممكن",
+          "trans": "mumkin",
+          "meaning": "Can / could / possible",
+          "detail": "A useful word for making polite requests.",
+          "exampleAr": "ممكن تساعدني؟",
+          "exampleTrans": "Mumkin tsāʿidnī?",
+          "exampleEn": "Could you help me?"
+        },
+        {
+          "key": "تشرح",
+          "ar": "تشرح",
+          "trans": "tishraḥ",
+          "meaning": "You explain",
+          "detail": "Used to ask someone to explain something.",
+          "exampleAr": "ممكن تشرح؟",
+          "exampleTrans": "Mumkin tishraḥ?",
+          "exampleEn": "Could you explain?"
+        },
+        {
+          "key": "يعني",
+          "ar": "يعني",
+          "trans": "yaʿnī",
+          "meaning": "Meaning / I mean",
+          "detail": "Can introduce a meaning or clarify a point; very common in speech.",
+          "exampleAr": "شو يعني؟",
+          "exampleTrans": "Shū yaʿnī?",
+          "exampleEn": "What does it mean?"
+        },
+        {
+          "key": "كيف",
+          "ar": "كيف",
+          "trans": "kēf",
+          "meaning": "How",
+          "detail": "Used to ask about a method or manner.",
+          "exampleAr": "كيف أقولها؟",
+          "exampleTrans": "Kēf agūlha?",
+          "exampleEn": "How do I say it?"
+        },
+        {
+          "key": "تقول",
+          "ar": "تقول",
+          "trans": "tgūl",
+          "meaning": "You say",
+          "detail": "Useful for asking how to say a word.",
+          "exampleAr": "كيف تقول هذا؟",
+          "exampleTrans": "Kēf tgūl hātha?",
+          "exampleEn": "How do you say this?"
+        },
+        {
+          "key": "واضح",
+          "ar": "واضح",
+          "trans": "wāḍiḥ",
+          "meaning": "Clear",
+          "detail": "Used to describe whether something is understandable.",
+          "exampleAr": "الحين واضح",
+          "exampleTrans": "Il-ḥīn wāḍiḥ",
+          "exampleEn": "Now it’s clear."
+        }
+      ],
+      "structure": {
+        "pattern": "ممكن + verb؟",
+        "explanation": "A polite request can be built with ممكن + verb (“Could you…?”). For example, ممكن تعيد؟ (“Could you repeat?”). You can explain the problem first with ما فهمت.",
+        "exampleAr": "ممكن تعيد؟",
+        "exampleTrans": "Mumkin tʿīd?",
+        "exampleEn": "Could you repeat?"
+      },
+      "notes": [
+        {
+          "title": "Polite request",
+          "text": "ممكن + verb؟",
+          "detail": "ممكن تعيد؟ = Could you repeat?"
+        },
+        {
+          "title": "Negative past meaning",
+          "text": "ما فهمت",
+          "detail": "This means “I didn’t understand.” Learn it as a complete phrase."
+        },
+        {
+          "title": "Asking meaning",
+          "text": "شو يعني + word؟",
+          "detail": "شو يعني؟ asks “What does it mean?” You can add the word or phrase after يعني."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "multiple-choice",
+          "question": "What does ما فهمت mean?",
+          "options": [
+            "I didn’t understand",
+            "I want water",
             "Where is it?",
-            "It's expensive"
+            "It is expensive"
           ],
           "answer": 0,
-          "explanation": "صار شي means something happened."
-        }
-      ]
-    },
-    "16": {
-      "vocabulary": [
-        [
-          "خلنا",
-          "khallnā",
-          "Let's"
-        ],
-        [
-          "يمكن",
-          "yimkin",
-          "Maybe / perhaps"
-        ],
-        [
-          "الأفضل",
-          "il-afḍal",
-          "The best"
-        ],
-        [
-          "بدال",
-          "badāl",
-          "Instead of"
-        ]
-      ],
-      "structure": {
-        "title": "Suggest a solution tactfully",
-        "explanation": "A suggestion can sound collaborative when you use ‘let's’, ‘maybe’, or ‘it may be better’. Then state a practical alternative.",
-        "pattern": "خلنا + action · يمكن الأفضل + suggestion",
-        "examples": [
-          {
-            "ar": "خلنا نجرب مرة ثانية.",
-            "transliteration": "Khallnā njarrib marra thānya.",
-            "en": "Let's try one more time.",
-            "breakdown": "خلنا frames the action as something to do together."
-          },
-          {
-            "ar": "يمكن الأفضل نبدأ باچر.",
-            "transliteration": "Yimkin il-afḍal nibda bācher.",
-            "en": "Maybe it's better to start tomorrow.",
-            "breakdown": "يمكن softens the suggestion."
-          }
-        ]
-      },
-      "notes": [
-        "Collaborative phrasing is useful when suggesting changes at work or with friends.",
-        "A suggestion is often more effective when paired with a brief reason or a concrete next step."
-      ],
-      "exercises": [
-        {
-          "question": "What does خلنا usually mean?",
-          "options": [
-            "Let's",
-            "Never",
-            "Who",
-            "How much"
-          ],
-          "answer": 0,
-          "explanation": "خلنا suggests doing something together."
+          "feedback": "ما فهمت means “I didn’t understand.”"
         },
         {
-          "question": "Which word means ‘maybe’?",
+          "type": "multiple-choice",
+          "question": "How do you politely ask someone to repeat?",
           "options": [
-            "الأفضل",
-            "يمكن",
-            "بدال",
-            "صار"
-          ],
-          "answer": 1,
-          "explanation": "يمكن means maybe or perhaps."
-        },
-        {
-          "question": "Choose a collaborative suggestion.",
-          "options": [
-            "خلنا نجرب مرة ثانية",
-            "ليش أنت هنا؟",
-            "ما فهمت الكلمة",
-            "كم الحساب؟"
-          ],
-          "answer": 0,
-          "explanation": "خلنا نجرب مرة ثانية means let's try again."
-        }
-      ]
-    },
-    "17": {
-      "vocabulary": [
-        [
-          "أتفق",
-          "atfig",
-          "I agree"
-        ],
-        [
-          "ما أتفق",
-          "mā atfig",
-          "I don't agree"
-        ],
-        [
-          "على حسب",
-          "ʿala ḥasab",
-          "It depends"
-        ],
-        [
-          "يمكن",
-          "yimkin",
-          "Maybe"
-        ]
-      ],
-      "structure": {
-        "title": "Agree or disagree respectfully",
-        "explanation": "State your position briefly, then add a reason or a condition. على حسب is useful when the answer changes with circumstances.",
-        "pattern": "أتفق / ما أتفق + because or condition",
-        "examples": [
-          {
-            "ar": "أتفق وياك.",
-            "transliteration": "Atfig wayyāk.",
-            "en": "I agree with you.",
-            "breakdown": "وياك means with you when speaking to a man."
-          },
-          {
-            "ar": "على حسب الوقت.",
-            "transliteration": "ʿAla ḥasab il-waqt.",
-            "en": "It depends on the time.",
-            "breakdown": "على حسب introduces a condition."
-          }
-        ]
-      },
-      "notes": [
-        "You can disagree without sounding confrontational by acknowledging the other view before giving your reason.",
-        "وياك is a common colloquial ‘with you’ form addressed to a man; forms may change with the person addressed."
-      ],
-      "exercises": [
-        {
-          "question": "What does على حسب mean?",
-          "options": [
-            "Definitely",
-            "It depends",
-            "I forgot",
-            "At home"
-          ],
-          "answer": 1,
-          "explanation": "على حسب means it depends."
-        },
-        {
-          "question": "Which phrase means ‘I agree with you’?",
-          "options": [
-            "أتفق وياك",
-            "ما فهمت",
-            "بكم؟",
+            "ممكن تعيد؟",
+            "بكم هذا؟",
+            "أنا زين",
             "وين البيت؟"
           ],
           "answer": 0,
-          "explanation": "أتفق وياك means I agree with you."
-        },
-        {
-          "question": "What does ما أتفق mean?",
-          "options": [
-            "I agree",
-            "I don't agree",
-            "I don't know",
-            "I am ready"
-          ],
-          "answer": 1,
-          "explanation": "ما negates أتفق."
+          "feedback": "ممكن تعيد؟ means “Could you repeat?”"
         }
       ]
     },
-    "18": {
+    {
+      "id": 9,
+      "title": "At work",
+      "objective": "Talk about shifts, tasks, coworkers, and workplace needs.",
       "vocabulary": [
-        [
-          "قصدي",
-          "gaṣdī",
-          "What I mean is"
-        ],
-        [
-          "فهمتني غلط",
-          "fahamtni ghalaṭ",
-          "You misunderstood me"
-        ],
-        [
-          "أوضح",
-          "awḍiḥ",
-          "I clarify / explain"
-        ],
-        [
-          "مو هذا قصدي",
-          "mū hātha gaṣdī",
-          "That's not what I meant"
-        ]
+        {
+          "key": "دوام",
+          "ar": "دوام",
+          "trans": "dawām",
+          "meaning": "Work / shift / working hours",
+          "detail": "Meaning depends on context; often refers to being at work or a shift.",
+          "exampleAr": "عندي دوام اليوم",
+          "exampleTrans": "ʿIndī dawām il-yōm",
+          "exampleEn": "I have work today."
+        },
+        {
+          "key": "شغل",
+          "ar": "شغل",
+          "trans": "shughl",
+          "meaning": "Work / task",
+          "detail": "Broad everyday word for work or a job task.",
+          "exampleAr": "عندي شغل وايد",
+          "exampleTrans": "ʿIndī shughl wāyid",
+          "exampleEn": "I have a lot of work."
+        },
+        {
+          "key": "مدير",
+          "ar": "مدير",
+          "trans": "mudīr",
+          "meaning": "Manager",
+          "detail": "A workplace role.",
+          "exampleAr": "المدير في المكتب",
+          "exampleTrans": "Il-mudīr fil-maktab",
+          "exampleEn": "The manager is in the office."
+        },
+        {
+          "key": "مكتب",
+          "ar": "مكتب",
+          "trans": "maktab",
+          "meaning": "Office / desk",
+          "detail": "Context determines whether it means an office or desk.",
+          "exampleAr": "أنا في المكتب",
+          "exampleTrans": "Ana fil-maktab",
+          "exampleEn": "I’m in the office."
+        },
+        {
+          "key": "زميل",
+          "ar": "زميل",
+          "trans": "zamīl",
+          "meaning": "Colleague",
+          "detail": "A coworker.",
+          "exampleAr": "زميلي وصل",
+          "exampleTrans": "Zamīlī waṣal",
+          "exampleEn": "My colleague arrived."
+        },
+        {
+          "key": "وصل",
+          "ar": "وصل",
+          "trans": "waṣal",
+          "meaning": "Arrived / reached",
+          "detail": "Common verb for arriving.",
+          "exampleAr": "وصلت الحين",
+          "exampleTrans": "Waṣalt il-ḥīn",
+          "exampleEn": "I arrived just now."
+        },
+        {
+          "key": "خلصت",
+          "ar": "خلصت",
+          "trans": "khallaṣt",
+          "meaning": "I finished",
+          "detail": "Useful for reporting a completed task.",
+          "exampleAr": "خلصت الشغل",
+          "exampleTrans": "Khallaṣt ish-shughl",
+          "exampleEn": "I finished the work."
+        },
+        {
+          "key": "بعد",
+          "ar": "بعد",
+          "trans": "baʿad",
+          "meaning": "Still / yet / after",
+          "detail": "Meaning depends strongly on context; can mean still/yet or after.",
+          "exampleAr": "ما خلصت بعد",
+          "exampleTrans": "Mā khallaṣt baʿad",
+          "exampleEn": "I haven’t finished yet."
+        },
+        {
+          "key": "جاهز",
+          "ar": "جاهز",
+          "trans": "jāhiz",
+          "meaning": "Ready",
+          "detail": "Used for a person, task, or item that is ready.",
+          "exampleAr": "التقرير جاهز",
+          "exampleTrans": "It-taqrīr jāhiz",
+          "exampleEn": "The report is ready."
+        },
+        {
+          "key": "تقرير",
+          "ar": "تقرير",
+          "trans": "taqrīr",
+          "meaning": "Report",
+          "detail": "Common administrative/workplace word.",
+          "exampleAr": "أرسل التقرير",
+          "exampleTrans": "Arsil it-taqrīr",
+          "exampleEn": "Send the report."
+        }
       ],
       "structure": {
-        "title": "Clarify without escalating",
-        "explanation": "Acknowledge the misunderstanding, restate your intended meaning, and keep the focus on the message rather than blaming the other person.",
-        "pattern": "مو هذا قصدي… قصدي…",
-        "examples": [
-          {
-            "ar": "مو هذا قصدي، قصدي نأجل الموعد.",
-            "transliteration": "Mū hātha gaṣdī, gaṣdī n'ajjil il-mawʿid.",
-            "en": "That's not what I meant; I meant we should postpone the appointment.",
-            "breakdown": "Repeating قصدي introduces the correction."
-          },
-          {
-            "ar": "خلني أوضح لك.",
-            "transliteration": "Khallīnī awḍiḥ lak.",
-            "en": "Let me explain it to you.",
-            "breakdown": "خلني means let me."
-          }
-        ]
+        "pattern": "ما + verb + بعد",
+        "explanation": "At work, شغل often means work or tasks, while دوام often means your workday, shift, or attendance at work. A short status update can be “خلصت الشغل” (“I finished the work”).",
+        "exampleAr": "ما خلصت بعد",
+        "exampleTrans": "Mā khallaṣt baʿad",
+        "exampleEn": "I haven’t finished yet."
       },
       "notes": [
-        "When a misunderstanding happens, a calm restatement is usually more effective than repeating the same sentence louder.",
-        "Use the direct phrase that fits your relationship; softer wording can be preferable in formal or workplace settings."
+        {
+          "title": "Work nouns",
+          "text": "شغل vs دوام",
+          "detail": "شغل is the work/task itself; دوام often refers to working hours or a shift."
+        },
+        {
+          "title": "Completed task",
+          "text": "خلصت + task",
+          "detail": "خلصت الشغل = I finished the work."
+        },
+        {
+          "title": "Not yet",
+          "text": "ما + verb + بعد",
+          "detail": "ما خلصت بعد = I haven’t finished yet. Learn this common pattern as a unit."
+        }
       ],
       "exercises": [
         {
-          "question": "Which phrase means ‘That's not what I meant’?",
+          "type": "multiple-choice",
+          "question": "Which word often means work shift / working hours?",
           "options": [
-            "مو هذا قصدي",
-            "أنا فاضي",
-            "بكم؟",
-            "هلا"
+            "دوام",
+            "مطبخ",
+            "فلوس",
+            "هني"
           ],
           "answer": 0,
-          "explanation": "مو هذا قصدي corrects a misunderstanding."
+          "feedback": "دوام often means work, a shift, or working hours."
         },
         {
-          "question": "What does خلني أوضح لك mean?",
+          "type": "multiple-choice",
+          "question": "ما خلصت بعد means…",
           "options": [
-            "Let me explain it to you",
-            "Come tomorrow",
-            "I want water",
-            "How are you"
+            "I haven’t finished yet",
+            "I finished already",
+            "I am ready",
+            "I arrived"
           ],
           "answer": 0,
-          "explanation": "خلني means let me; أوضح means explain/clarify."
-        },
-        {
-          "question": "What is a good first step in clarifying a misunderstanding?",
-          "options": [
-            "Blame the listener",
-            "Restate the intended meaning calmly",
-            "Change the subject immediately",
-            "Speak much faster"
-          ],
-          "answer": 1,
-          "explanation": "A calm restatement keeps the focus on meaning."
+          "feedback": "ما خلصت بعد means “I haven’t finished yet.”"
         }
       ]
     },
-    "19": {
+    {
+      "id": 10,
+      "title": "Asking for help and making requests",
+      "objective": "Make practical requests and offer help politely.",
       "vocabulary": [
-        [
-          "توني",
-          "tawni",
-          "I just… / just now"
-        ],
-        [
-          "خلصت",
-          "khallaṣt",
-          "I finished"
-        ],
-        [
-          "طرشت",
-          "ṭarashṭ",
-          "I sent"
-        ],
-        [
-          "رديت",
-          "raddēt",
-          "I replied / returned"
-        ]
-      ],
-      "structure": {
-        "title": "Explain something you just did",
-        "explanation": "توني can mark a recent action. Follow it with the action, then add the object or recipient if needed.",
-        "pattern": "توني + action + details",
-        "examples": [
-          {
-            "ar": "توني طرشت الإيميل.",
-            "transliteration": "Tawni ṭarasht il-īmēl.",
-            "en": "I just sent the email.",
-            "breakdown": "توني signals that the action happened very recently."
-          },
-          {
-            "ar": "خلصت التقرير ورديت عليه.",
-            "transliteration": "Khallaṣt it-taqrīr w-raddēt ʿalēh.",
-            "en": "I finished the report and replied to him/it.",
-            "breakdown": "و links two actions; عليه means to him/on it depending on context."
-          }
-        ]
-      },
-      "notes": [
-        "توني is colloquial and common in Gulf speech; exact forms can vary depending on the speaker.",
-        "In a work update, mention what you completed and what is still pending if that affects the next person."
-      ],
-      "exercises": [
         {
-          "question": "What does توني often mean?",
-          "options": [
-            "I just did something",
-            "I will never",
-            "I used to",
-            "I don't want"
-          ],
-          "answer": 0,
-          "explanation": "توني marks a very recent action."
+          "key": "ساعدني",
+          "ar": "ساعدني",
+          "trans": "sāʿidnī",
+          "meaning": "Help me",
+          "detail": "A direct request to one person.",
+          "exampleAr": "ممكن تساعدني؟",
+          "exampleTrans": "Mumkin tsāʿidnī?",
+          "exampleEn": "Could you help me?"
         },
         {
-          "question": "What does طرشت الإيميل mean?",
-          "options": [
-            "I deleted the email",
-            "I sent the email",
-            "I read the email",
-            "I forgot the email"
-          ],
-          "answer": 1,
-          "explanation": "طرشت means I sent in colloquial Gulf Arabic."
+          "key": "مساعدة",
+          "ar": "مساعدة",
+          "trans": "musāʿada",
+          "meaning": "Help / assistance",
+          "detail": "A noun used with أحتاج (“I need”).",
+          "exampleAr": "أحتاج مساعدة",
+          "exampleTrans": "Aḥtāj musāʿada",
+          "exampleEn": "I need help."
         },
         {
-          "question": "Which sentence means ‘I just sent the email’?",
-          "options": [
-            "توني طرشت الإيميل",
-            "وين الإيميل؟",
-            "ما أبغي إيميل",
-            "الإيميل غالي"
-          ],
-          "answer": 0,
-          "explanation": "توني marks the recent action."
+          "key": "ممكن تساعدني؟",
+          "ar": "ممكن تساعدني؟",
+          "trans": "mumkin tsāʿidnī?",
+          "meaning": "Could you help me?",
+          "detail": "Polite, practical request.",
+          "exampleAr": "لو سمحت، ممكن تساعدني؟",
+          "exampleTrans": "Law samaḥt, mumkin tsāʿidnī?",
+          "exampleEn": "Please, could you help me?"
+        },
+        {
+          "key": "تقدر",
+          "ar": "تقدر",
+          "trans": "tigdir",
+          "meaning": "You can / are able to",
+          "detail": "Often used to ask whether someone can do something.",
+          "exampleAr": "تقدر تساعدني؟",
+          "exampleTrans": "Tigdir tsāʿidnī?",
+          "exampleEn": "Can you help me?"
+        },
+        {
+          "key": "إذا",
+          "ar": "إذا",
+          "trans": "itha",
+          "meaning": "If",
+          "detail": "Introduces a condition.",
+          "exampleAr": "إذا تقدر",
+          "exampleTrans": "Itha tigdir",
+          "exampleEn": "If you can."
+        },
+        {
+          "key": "ما عليك أمر",
+          "ar": "ما عليك أمر",
+          "trans": "mā ʿalēk amr",
+          "meaning": "If you don’t mind / please",
+          "detail": "A polite Gulf expression; literal wording is not the intended meaning.",
+          "exampleAr": "ما عليك أمر، افتح الباب",
+          "exampleTrans": "Mā ʿalēk amr, iftaḥ il-bāb",
+          "exampleEn": "Could you open the door, please?"
+        },
+        {
+          "key": "عطني",
+          "ar": "عطني",
+          "trans": "ʿaṭnī",
+          "meaning": "Give me",
+          "detail": "A direct colloquial request.",
+          "exampleAr": "عطني دقيقة",
+          "exampleTrans": "ʿAṭnī dagīga",
+          "exampleEn": "Give me a minute."
+        },
+        {
+          "key": "دقيقة",
+          "ar": "دقيقة",
+          "trans": "dagīga",
+          "meaning": "A minute",
+          "detail": "Common in requests for a short wait.",
+          "exampleAr": "انتظر دقيقة",
+          "exampleTrans": "Intaẓir dagīga",
+          "exampleEn": "Wait a minute."
+        },
+        {
+          "key": "أقدر",
+          "ar": "أقدر",
+          "trans": "agdar",
+          "meaning": "I can / I’m able to",
+          "detail": "First-person ability.",
+          "exampleAr": "أقدر أساعدك",
+          "exampleTrans": "Agdar asāʿdak",
+          "exampleEn": "I can help you."
+        },
+        {
+          "key": "أساعدك",
+          "ar": "أساعدك",
+          "trans": "asāʿdak",
+          "meaning": "I help you / help you",
+          "detail": "Used when offering assistance.",
+          "exampleAr": "أقدر أساعدك",
+          "exampleTrans": "Agdar asāʿdak",
+          "exampleEn": "I can help you."
         }
-      ]
-    },
-    "20": {
-      "vocabulary": [
-        [
-          "بصراحة",
-          "biṣarāḥa",
-          "Honestly"
-        ],
-        [
-          "المهم",
-          "il-muhimm",
-          "Anyway / the important thing"
-        ],
-        [
-          "اتفقنا",
-          "itfagna",
-          "Agreed / we have a deal"
-        ],
-        [
-          "إن شاء الله",
-          "in shā' Allah",
-          "God willing"
-        ]
       ],
       "structure": {
-        "title": "Combine what you've learned",
-        "explanation": "A natural conversation combines a greeting, a question, a reason or preference, and a next step. You do not need long sentences to communicate clearly.",
-        "pattern": "greeting → main point → reason/detail → next step",
-        "examples": [
-          {
-            "ar": "بصراحة ما أقدر اليوم، عندي دوام.",
-            "transliteration": "Biṣarāḥa mā agdar il-yōm, ʿindī dawām.",
-            "en": "Honestly, I can't today; I have work.",
-            "breakdown": "The speaker gives the answer and a short reason."
-          },
-          {
-            "ar": "تمام، نتلاقى باچر إن شاء الله.",
-            "transliteration": "Tamām, nitlāga bācher in shā' Allah.",
-            "en": "Great, let's meet tomorrow, God willing.",
-            "breakdown": "Acknowledge the plan, suggest the time, and close naturally."
-          }
-        ]
+        "pattern": "ممكن / تقدر + verb؟",
+        "explanation": "Use ممكن or تقدر to make a request sound less like a command. A direct phrase like عطني دقيقة is common in casual speech, while ما عليك أمر softens a request in many Gulf contexts.",
+        "exampleAr": "ممكن تساعدني؟",
+        "exampleTrans": "Mumkin tsāʿidnī?",
+        "exampleEn": "Could you help me?"
       },
       "notes": [
-        "The goal is to communicate naturally, not to translate every English sentence word for word.",
-        "Practice changing one detail at a time—person, time, place, or reason—so familiar patterns become flexible."
+        {
+          "title": "Could you…?",
+          "text": "ممكن + verb؟",
+          "detail": "ممكن تساعدني؟ = Could you help me?"
+        },
+        {
+          "title": "Can you…?",
+          "text": "تقدر + verb؟",
+          "detail": "تقدر تساعدني؟ = Can you help me?"
+        },
+        {
+          "title": "Offering help",
+          "text": "أقدر + verb",
+          "detail": "أقدر أساعدك = I can help you."
+        }
       ],
       "exercises": [
         {
-          "question": "What does بصراحة mean?",
+          "type": "multiple-choice",
+          "question": "Which phrase means “Could you help me?”",
           "options": [
-            "Honestly",
-            "Yesterday",
-            "Slowly",
-            "Where"
-          ],
-          "answer": 0,
-          "explanation": "بصراحة means honestly."
-        },
-        {
-          "question": "Which phrase means ‘we have agreed / agreed’?",
-          "options": [
-            "اتفقنا",
+            "ممكن تساعدني؟",
             "ما فهمت",
-            "بكم؟",
-            "وين؟"
+            "بكم هذا؟",
+            "أنا مع أخوي"
           ],
           "answer": 0,
-          "explanation": "اتفقنا means agreed."
+          "feedback": "ممكن تساعدني؟ is a polite request for help."
         },
         {
-          "question": "Choose the most natural plan-making sentence.",
+          "type": "multiple-choice",
+          "question": "أقدر أساعدك means…",
           "options": [
-            "تمام، نتلاقى باچر إن شاء الله",
-            "شو هذا بكم؟",
-            "ما فهمت أمس وين",
-            "أنا غالي"
+            "I can help you",
+            "I need water",
+            "I finished work",
+            "Where are you?"
           ],
           "answer": 0,
-          "explanation": "It acknowledges and confirms a plan to meet tomorrow."
+          "feedback": "أقدر = I can; أساعدك = help you."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Making plans",
+      "objective": "Suggest meeting, arrange a time, and confirm plans.",
+      "vocabulary": [
+        {
+          "key": "خلنا",
+          "ar": "خلنا",
+          "trans": "khallna",
+          "meaning": "Let’s",
+          "detail": "Introduces a suggestion for doing something together.",
+          "exampleAr": "خلنا نروح",
+          "exampleTrans": "Khallna nrūḥ",
+          "exampleEn": "Let’s go."
+        },
+        {
+          "key": "نروح",
+          "ar": "نروح",
+          "trans": "nrūḥ",
+          "meaning": "We go / let’s go",
+          "detail": "Often follows خلنا for a suggestion.",
+          "exampleAr": "خلنا نروح باچر",
+          "exampleTrans": "Khallna nrūḥ bācher",
+          "exampleEn": "Let’s go tomorrow."
+        },
+        {
+          "key": "نتلاقى",
+          "ar": "نتلاقى",
+          "trans": "nitlāga",
+          "meaning": "We meet",
+          "detail": "Used to talk about meeting up.",
+          "exampleAr": "نتلاقى عقب الدوام",
+          "exampleTrans": "Nitlāga ʿagib id-dawām",
+          "exampleEn": "Let’s meet after work."
+        },
+        {
+          "key": "متى",
+          "ar": "متى",
+          "trans": "matā",
+          "meaning": "When",
+          "detail": "Question word for time.",
+          "exampleAr": "متى نتلاقى؟",
+          "exampleTrans": "Matā nitlāga?",
+          "exampleEn": "When shall we meet?"
+        },
+        {
+          "key": "الساعة",
+          "ar": "الساعة",
+          "trans": "is-sāʿa",
+          "meaning": "The time / o’clock",
+          "detail": "Used before a time: الساعة سبع.",
+          "exampleAr": "الساعة سبع",
+          "exampleTrans": "Is-sāʿa sabʿ",
+          "exampleEn": "At seven o’clock."
+        },
+        {
+          "key": "سبع",
+          "ar": "سبع",
+          "trans": "sabʿ",
+          "meaning": "Seven",
+          "detail": "Number used in time expressions.",
+          "exampleAr": "الساعة سبع",
+          "exampleTrans": "Is-sāʿa sabʿ",
+          "exampleEn": "At seven."
+        },
+        {
+          "key": "مناسب",
+          "ar": "مناسب",
+          "trans": "munāsib",
+          "meaning": "Suitable / convenient",
+          "detail": "Useful for checking whether a time works.",
+          "exampleAr": "هذا الوقت مناسب؟",
+          "exampleTrans": "Hātha il-wagt munāsib?",
+          "exampleEn": "Is this time convenient?"
+        },
+        {
+          "key": "أكيد",
+          "ar": "أكيد",
+          "trans": "akīd",
+          "meaning": "Sure / definitely",
+          "detail": "Positive confirmation.",
+          "exampleAr": "أكيد، أشوفك باچر",
+          "exampleTrans": "Akīd, ashūfak bācher",
+          "exampleEn": "Sure, see you tomorrow."
+        },
+        {
+          "key": "يمكن",
+          "ar": "يمكن",
+          "trans": "yimkin",
+          "meaning": "Maybe / perhaps",
+          "detail": "Expresses uncertainty.",
+          "exampleAr": "يمكن أتأخر",
+          "exampleTrans": "Yimkin atʾakhkhar",
+          "exampleEn": "I might be late."
+        },
+        {
+          "key": "أتأخر",
+          "ar": "أتأخر",
+          "trans": "atʾakhkhar",
+          "meaning": "I’m late / I may be delayed",
+          "detail": "Useful for plans and timing.",
+          "exampleAr": "يمكن أتأخر شوي",
+          "exampleTrans": "Yimkin atʾakhkhar shway",
+          "exampleEn": "I might be a little late."
+        }
+      ],
+      "structure": {
+        "pattern": "خلنا + verb",
+        "explanation": "A suggestion often uses خلنا + verb (“let’s…”). Ask متى؟ for the time, then confirm with أكيد or qualify the plan with يمكن.",
+        "exampleAr": "خلنا نروح باچر",
+        "exampleTrans": "Khallna nrūḥ bācher",
+        "exampleEn": "Let’s go tomorrow."
+      },
+      "notes": [
+        {
+          "title": "Suggestion",
+          "text": "خلنا + verb",
+          "detail": "خلنا نروح = Let’s go."
+        },
+        {
+          "title": "Plan question",
+          "text": "متى + action؟",
+          "detail": "متى نتلاقى؟ = When shall we meet?"
+        },
+        {
+          "title": "Certainty",
+          "text": "أكيد / يمكن",
+          "detail": "أكيد means sure/definitely; يمكن means maybe."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "multiple-choice",
+          "question": "What does خلنا نروح mean?",
+          "options": [
+            "Let’s go",
+            "I am late",
+            "How much is it?",
+            "I need help"
+          ],
+          "answer": 0,
+          "feedback": "خلنا introduces a suggestion: “Let’s go.”"
+        },
+        {
+          "type": "multiple-choice",
+          "question": "Which word means “maybe”?",
+          "options": [
+            "يمكن",
+            "أكيد",
+            "متى",
+            "سبع"
+          ],
+          "answer": 0,
+          "feedback": "يمكن means maybe/perhaps."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Food, cafés, and preferences",
+      "objective": "Order food and drinks and express what you like.",
+      "vocabulary": [
+        {
+          "key": "أكل",
+          "ar": "أكل",
+          "trans": "akal",
+          "meaning": "Food / eating",
+          "detail": "Can be a noun “food” or relate to the verb “eat”, depending on context.",
+          "exampleAr": "الأكل لذيذ",
+          "exampleTrans": "Il-akil ladhīdh",
+          "exampleEn": "The food is delicious."
+        },
+        {
+          "key": "لذيذ",
+          "ar": "لذيذ",
+          "trans": "ladhīdh",
+          "meaning": "Delicious",
+          "detail": "A standard adjective understood in everyday speech.",
+          "exampleAr": "الأكل لذيذ",
+          "exampleTrans": "Il-akil ladhīdh",
+          "exampleEn": "The food is delicious."
+        },
+        {
+          "key": "أحب",
+          "ar": "أحب",
+          "trans": "aḥibb",
+          "meaning": "I like / love",
+          "detail": "Used to state a preference.",
+          "exampleAr": "أحب القهوة",
+          "exampleTrans": "Aḥibb il-gahwa",
+          "exampleEn": "I like coffee."
+        },
+        {
+          "key": "ما أحب",
+          "ar": "ما أحب",
+          "trans": "mā aḥibb",
+          "meaning": "I don’t like",
+          "detail": "Negates the preference.",
+          "exampleAr": "ما أحب الحار",
+          "exampleTrans": "Mā aḥibb il-ḥār",
+          "exampleEn": "I don’t like spicy food."
+        },
+        {
+          "key": "حار",
+          "ar": "حار",
+          "trans": "ḥār",
+          "meaning": "Spicy / hot",
+          "detail": "For food, often means spicy; for temperature it can mean hot.",
+          "exampleAr": "الأكل حار",
+          "exampleTrans": "Il-akil ḥār",
+          "exampleEn": "The food is spicy."
+        },
+        {
+          "key": "بدون",
+          "ar": "بدون",
+          "trans": "bidūn",
+          "meaning": "Without",
+          "detail": "Useful for customising an order.",
+          "exampleAr": "بدون سكر",
+          "exampleTrans": "Bidūn sukkar",
+          "exampleEn": "Without sugar."
+        },
+        {
+          "key": "سكر",
+          "ar": "سكر",
+          "trans": "sukkar",
+          "meaning": "Sugar",
+          "detail": "Common food and drink word.",
+          "exampleAr": "قهوة بدون سكر",
+          "exampleTrans": "Gahwa bidūn sukkar",
+          "exampleEn": "Coffee without sugar."
+        },
+        {
+          "key": "حساب",
+          "ar": "حساب",
+          "trans": "ḥisāb",
+          "meaning": "Bill / check",
+          "detail": "Used in cafés and restaurants.",
+          "exampleAr": "الحساب لو سمحت",
+          "exampleTrans": "Il-ḥisāb law samaḥt",
+          "exampleEn": "The bill, please."
+        },
+        {
+          "key": "طاولة",
+          "ar": "طاولة",
+          "trans": "ṭāwila",
+          "meaning": "Table",
+          "detail": "Useful when asking for a table.",
+          "exampleAr": "أبغي طاولة لشخصين",
+          "exampleTrans": "Abghī ṭāwila li-shakhṣēn",
+          "exampleEn": "I’d like a table for two."
+        },
+        {
+          "key": "لشخصين",
+          "ar": "لشخصين",
+          "trans": "li-shakhṣēn",
+          "meaning": "For two people",
+          "detail": "Useful phrase for a table or booking.",
+          "exampleAr": "طاولة لشخصين",
+          "exampleTrans": "Ṭāwila li-shakhṣēn",
+          "exampleEn": "A table for two."
+        }
+      ],
+      "structure": {
+        "pattern": "أحب / ما أحب + thing",
+        "explanation": "Preferences use أحب (“I like”) and ما أحب (“I don’t like”). To customise food or drinks, use بدون + item (“without…”).",
+        "exampleAr": "ما أحب الحار",
+        "exampleTrans": "Mā aḥibb il-ḥār",
+        "exampleEn": "I don’t like spicy food."
+      },
+      "notes": [
+        {
+          "title": "Preference",
+          "text": "أحب / ما أحب + noun",
+          "detail": "أحب القهوة = I like coffee; ما أحب الحار = I don’t like spicy food."
+        },
+        {
+          "title": "Customising an order",
+          "text": "بدون + item",
+          "detail": "قهوة بدون سكر = coffee without sugar."
+        },
+        {
+          "title": "Requesting the bill",
+          "text": "الحساب لو سمحت",
+          "detail": "A standard polite phrase in a café or restaurant."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "multiple-choice",
+          "question": "How do you say “without sugar”?",
+          "options": [
+            "بدون سكر",
+            "وايد غالي",
+            "عقب الشغل",
+            "كل يوم"
+          ],
+          "answer": 0,
+          "feedback": "بدون سكر means without sugar."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "ما أحب الحار means…",
+          "options": [
+            "I don’t like spicy food",
+            "I like coffee",
+            "The bill please",
+            "Let’s meet"
+          ],
+          "answer": 0,
+          "feedback": "ما أحب means I don’t like; الحار means spicy/hot."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Explaining reasons and consequences",
+      "objective": "Connect a reason to a result in a natural way.",
+      "vocabulary": [
+        {
+          "key": "لأن",
+          "ar": "لأن",
+          "trans": "liʾanna",
+          "meaning": "Because",
+          "detail": "Introduces a reason.",
+          "exampleAr": "تأخرت لأن الزحمة قوية",
+          "exampleTrans": "Taʾakhkhart liʾanna iz-zaḥma gawiyya",
+          "exampleEn": "I was late because the traffic was heavy."
+        },
+        {
+          "key": "عشان",
+          "ar": "عشان",
+          "trans": "ʿashān",
+          "meaning": "Because / so that / for",
+          "detail": "Very common colloquial connector; exact meaning depends on context.",
+          "exampleAr": "جيت عشان أشوفك",
+          "exampleTrans": "Jīt ʿashān ashūfak",
+          "exampleEn": "I came to see you."
+        },
+        {
+          "key": "عشان جي",
+          "ar": "عشان جي",
+          "trans": "ʿashān chē",
+          "meaning": "That’s why / because of that",
+          "detail": "A common Gulf connector for a consequence.",
+          "exampleAr": "كنت تعبان، عشان جي نمت",
+          "exampleTrans": "Kint taʿbān, ʿashān chē nimt",
+          "exampleEn": "I was tired, that’s why I slept."
+        },
+        {
+          "key": "زحمة",
+          "ar": "زحمة",
+          "trans": "zaḥma",
+          "meaning": "Traffic / crowding",
+          "detail": "Often used for traffic congestion.",
+          "exampleAr": "الشارع زحمة",
+          "exampleTrans": "Ish-shāriʿ zaḥma",
+          "exampleEn": "The road is busy."
+        },
+        {
+          "key": "قوي",
+          "ar": "قوي",
+          "trans": "gawī",
+          "meaning": "Strong / heavy",
+          "detail": "Can intensify traffic, wind, taste, etc.",
+          "exampleAr": "الزحمة قوية",
+          "exampleTrans": "Iz-zaḥma gawiyya",
+          "exampleEn": "The traffic is heavy."
+        },
+        {
+          "key": "تعبان",
+          "ar": "تعبان",
+          "trans": "taʿbān",
+          "meaning": "Tired / unwell",
+          "detail": "Masculine form; feminine is often تعبانة.",
+          "exampleAr": "أنا تعبان اليوم",
+          "exampleTrans": "Ana taʿbān il-yōm",
+          "exampleEn": "I’m tired today."
+        },
+        {
+          "key": "عشان كذا",
+          "ar": "عشان كذا",
+          "trans": "ʿashān kitha",
+          "meaning": "That’s why / for that reason",
+          "detail": "Another widely understood way to connect cause and result.",
+          "exampleAr": "ما نمت زين، عشان كذا تعبان",
+          "exampleTrans": "Mā nimt zain, ʿashān kitha taʿbān",
+          "exampleEn": "I didn’t sleep well, that’s why I’m tired."
+        },
+        {
+          "key": "نتيجة",
+          "ar": "نتيجة",
+          "trans": "natīja",
+          "meaning": "Result",
+          "detail": "A more formal word for result.",
+          "exampleAr": "النتيجة زينة",
+          "exampleTrans": "In-natīja zēna",
+          "exampleEn": "The result is good."
+        },
+        {
+          "key": "بسبب",
+          "ar": "بسبب",
+          "trans": "bisabab",
+          "meaning": "Because of / due to",
+          "detail": "More formal than casual عشان in many contexts.",
+          "exampleAr": "تأخرت بسبب الزحمة",
+          "exampleTrans": "Taʾakhkhart bisabab iz-zaḥma",
+          "exampleEn": "I was late because of the traffic."
+        },
+        {
+          "key": "عشان أقدر",
+          "ar": "عشان أقدر",
+          "trans": "ʿashān agdar",
+          "meaning": "So that I can",
+          "detail": "Introduces a purpose.",
+          "exampleAr": "أتمرن عشان أقدر أركض",
+          "exampleTrans": "Atmarran ʿashān agdar arkudh",
+          "exampleEn": "I train so I can run."
+        }
+      ],
+      "structure": {
+        "pattern": "Statement + because / that’s why + reason or result",
+        "explanation": "Use لأن or عشان to give a reason, and عشان جي / عشان كذا to introduce a result (“that’s why”). Choose the connector based on the relationship between the two ideas.",
+        "exampleAr": "تأخرت لأن الزحمة قوية",
+        "exampleTrans": "Taʾakhkhart liʾanna iz-zaḥma gawiyya",
+        "exampleEn": "I was late because traffic was heavy."
+      },
+      "notes": [
+        {
+          "title": "Reason",
+          "text": "result + لأن + reason",
+          "detail": "تأخرت لأن الزحمة قوية = I was late because traffic was heavy."
+        },
+        {
+          "title": "Consequence",
+          "text": "reason, عشان جي + result",
+          "detail": "كنت تعبان، عشان جي نمت = I was tired, that’s why I slept."
+        },
+        {
+          "title": "Purpose",
+          "text": "عشان + action",
+          "detail": "جيت عشان أشوفك = I came to see you / in order to see you."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "multiple-choice",
+          "question": "Which expression means “that’s why”?",
+          "options": [
+            "عشان جي",
+            "بكم",
+            "منو",
+            "بدون"
+          ],
+          "answer": 0,
+          "feedback": "عشان جي commonly introduces a consequence: “that’s why”."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "لأن usually introduces…",
+          "options": [
+            "A reason",
+            "A greeting",
+            "A price",
+            "A person"
+          ],
+          "answer": 0,
+          "feedback": "لأن means because and introduces a reason."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "The word يعني in natural conversation",
+      "objective": "Use يعني to clarify, rephrase, and keep a conversation flowing.",
+      "vocabulary": [
+        {
+          "key": "يعني",
+          "ar": "يعني",
+          "trans": "yaʿnī",
+          "meaning": "Means / I mean / so",
+          "detail": "A highly frequent conversational word; its role depends on context.",
+          "exampleAr": "شو يعني هالكلمة؟",
+          "exampleTrans": "Shū yaʿnī hal-kilma?",
+          "exampleEn": "What does this word mean?"
+        },
+        {
+          "key": "هالكلمة",
+          "ar": "هالكلمة",
+          "trans": "hal-kilma",
+          "meaning": "This word",
+          "detail": "A colloquial form meaning “this word”.",
+          "exampleAr": "شو يعني هالكلمة؟",
+          "exampleTrans": "Shū yaʿnī hal-kilma?",
+          "exampleEn": "What does this word mean?"
+        },
+        {
+          "key": "قصدي",
+          "ar": "قصدي",
+          "trans": "gaṣdī",
+          "meaning": "I mean / what I mean is",
+          "detail": "Used to correct or clarify your own statement.",
+          "exampleAr": "قصدي باچر، مب اليوم",
+          "exampleTrans": "Gaṣdī bācher, mib il-yōm",
+          "exampleEn": "I mean tomorrow, not today."
+        },
+        {
+          "key": "مب",
+          "ar": "مب",
+          "trans": "mib",
+          "meaning": "Not",
+          "detail": "Common Emirati/Gulf negation before a noun or adjective.",
+          "exampleAr": "مب صعب",
+          "exampleTrans": "Mib ṣaʿb",
+          "exampleEn": "It’s not difficult."
+        },
+        {
+          "key": "صعب",
+          "ar": "صعب",
+          "trans": "ṣaʿb",
+          "meaning": "Difficult",
+          "detail": "Useful adjective for tasks and situations.",
+          "exampleAr": "الموضوع مب صعب",
+          "exampleTrans": "Il-mawḍūʿ mib ṣaʿb",
+          "exampleEn": "The matter isn’t difficult."
+        },
+        {
+          "key": "تقريباً",
+          "ar": "تقريباً",
+          "trans": "tagrīban",
+          "meaning": "Approximately / roughly",
+          "detail": "Used to estimate or soften exactness.",
+          "exampleAr": "تقريباً الساعة خمس",
+          "exampleTrans": "Tagrīban is-sāʿa khams",
+          "exampleEn": "Around five o’clock."
+        },
+        {
+          "key": "مثلاً",
+          "ar": "مثلاً",
+          "trans": "mathalan",
+          "meaning": "For example",
+          "detail": "Introduces an example.",
+          "exampleAr": "مثلاً، نقدر نروح باچر",
+          "exampleTrans": "Mathalan, nigdir nrūḥ bācher",
+          "exampleEn": "For example, we can go tomorrow."
+        },
+        {
+          "key": "بمعنى",
+          "ar": "بمعنى",
+          "trans": "bimaʿna",
+          "meaning": "Meaning / in the sense of",
+          "detail": "A more explicit way to explain what something means.",
+          "exampleAr": "بمعنى إنه جاهز",
+          "exampleTrans": "Bimaʿna innah jāhiz",
+          "exampleEn": "Meaning that he’s ready."
+        },
+        {
+          "key": "أوضح",
+          "ar": "أوضح",
+          "trans": "awḍaḥ",
+          "meaning": "Clearer / I explain",
+          "detail": "Can relate to making something clearer; exact reading depends on context.",
+          "exampleAr": "خلني أوضح",
+          "exampleTrans": "Khallnī awḍaḥ",
+          "exampleEn": "Let me explain."
+        },
+        {
+          "key": "خلني",
+          "ar": "خلني",
+          "trans": "khallnī",
+          "meaning": "Let me",
+          "detail": "A common way to introduce what you will do.",
+          "exampleAr": "خلني أوضح",
+          "exampleTrans": "Khallnī awḍaḥ",
+          "exampleEn": "Let me explain."
+        }
+      ],
+      "structure": {
+        "pattern": "شو يعني + word؟ / قصدي + correction",
+        "explanation": "يعني can ask for a definition (“what does it mean?”), introduce a paraphrase (“I mean…”), or act as a thinking/filler word. قصدي is especially useful when correcting what you just said.",
+        "exampleAr": "شو يعني هالكلمة؟",
+        "exampleTrans": "Shū yaʿnī hal-kilma?",
+        "exampleEn": "What does this word mean?"
+      },
+      "notes": [
+        {
+          "title": "Asking meaning",
+          "text": "شو يعني + expression؟",
+          "detail": "شو يعني هالكلمة؟ = What does this word mean?"
+        },
+        {
+          "title": "Clarifying yourself",
+          "text": "قصدي + correction",
+          "detail": "قصدي باچر، مب اليوم = I mean tomorrow, not today."
+        },
+        {
+          "title": "Adding an example",
+          "text": "مثلاً + example",
+          "detail": "مثلاً introduces a concrete example to make your meaning clearer."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "multiple-choice",
+          "question": "In conversation, يعني can mean…",
+          "options": [
+            "“means”, “I mean”, or a discourse filler",
+            "Only “tomorrow”",
+            "Only “expensive”",
+            "Only “please”"
+          ],
+          "answer": 0,
+          "feedback": "يعني has several conversational uses depending on context."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "قصدي is useful when you want to…",
+          "options": [
+            "Clarify what you meant",
+            "Ask a price",
+            "Say hello",
+            "Order water"
+          ],
+          "answer": 0,
+          "feedback": "قصدي means “I mean / what I mean is”."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Talking about a story or situation",
+      "objective": "Describe what happened and put events in order.",
+      "vocabulary": [
+        {
+          "key": "صار",
+          "ar": "صار",
+          "trans": "ṣār",
+          "meaning": "Happened / became",
+          "detail": "Used to report an event or change.",
+          "exampleAr": "شو صار؟",
+          "exampleTrans": "Shū ṣār?",
+          "exampleEn": "What happened?"
+        },
+        {
+          "key": "الموضوع",
+          "ar": "الموضوع",
+          "trans": "il-mawḍūʿ",
+          "meaning": "The matter / situation",
+          "detail": "Useful when referring to an issue or situation.",
+          "exampleAr": "الموضوع بسيط",
+          "exampleTrans": "Il-mawḍūʿ basīṭ",
+          "exampleEn": "The matter is simple."
+        },
+        {
+          "key": "بعدين",
+          "ar": "بعدين",
+          "trans": "baʿdēn",
+          "meaning": "Then / afterwards",
+          "detail": "Already taught earlier; now practise it as a story-sequencing word.",
+          "exampleAr": "بعدين رجعت البيت",
+          "exampleTrans": "Baʿdēn rajaʿt il-bēt",
+          "exampleEn": "Then I went back home."
+        },
+        {
+          "key": "رجعت",
+          "ar": "رجعت",
+          "trans": "rajaʿt",
+          "meaning": "I returned / came back",
+          "detail": "Past-tense form for “I returned”.",
+          "exampleAr": "رجعت البيت متأخر",
+          "exampleTrans": "Rajaʿt il-bēt mitʾakhkhar",
+          "exampleEn": "I came home late."
+        },
+        {
+          "key": "فجأة",
+          "ar": "فجأة",
+          "trans": "fajʾa",
+          "meaning": "Suddenly",
+          "detail": "Introduces an unexpected event.",
+          "exampleAr": "فجأة طفى التلفون",
+          "exampleTrans": "Fajʾa ṭafa it-tilifōn",
+          "exampleEn": "Suddenly the phone turned off."
+        },
+        {
+          "key": "صار لي",
+          "ar": "صار لي",
+          "trans": "ṣār lī",
+          "meaning": "It happened to me / I have been…",
+          "detail": "Meaning depends on the phrase that follows; common in experience/time expressions.",
+          "exampleAr": "صار لي ساعة أنتظر",
+          "exampleTrans": "Ṣār lī sāʿa antaẓir",
+          "exampleEn": "I’ve been waiting for an hour."
+        },
+        {
+          "key": "كنت",
+          "ar": "كنت",
+          "trans": "kint",
+          "meaning": "I was / used to be",
+          "detail": "A common past form used to set the scene.",
+          "exampleAr": "كنت في الدوام",
+          "exampleTrans": "Kint fid-dawām",
+          "exampleEn": "I was at work."
+        },
+        {
+          "key": "لما",
+          "ar": "لما",
+          "trans": "lammā",
+          "meaning": "When",
+          "detail": "Introduces a time or event clause.",
+          "exampleAr": "لما وصلت، اتصلت",
+          "exampleTrans": "Lammā waṣalt, ittiṣalt",
+          "exampleEn": "When I arrived, I called."
+        },
+        {
+          "key": "بعدها",
+          "ar": "بعدها",
+          "trans": "baʿdahā",
+          "meaning": "After that",
+          "detail": "A sequencing expression.",
+          "exampleAr": "بعدها رحت البيت",
+          "exampleTrans": "Baʿdahā riḥt il-bēt",
+          "exampleEn": "After that I went home."
+        },
+        {
+          "key": "آخر شي",
+          "ar": "آخر شي",
+          "trans": "ākhir shay",
+          "meaning": "Finally / in the end",
+          "detail": "Signals the final event in a story.",
+          "exampleAr": "آخر شي خلصنا",
+          "exampleTrans": "Ākhir shay khallaṣna",
+          "exampleEn": "In the end, we finished."
+        }
+      ],
+      "structure": {
+        "pattern": "كنت + setting; لما + event; بعدها + next event",
+        "explanation": "A clear story usually has a setting, a sequence of events, and an ending. Use كنت to set the scene, لما to connect events, then بعدين / بعدها / آخر شي to order what happened.",
+        "exampleAr": "لما وصلت، اتصلت",
+        "exampleTrans": "Lammā waṣalt, ittiṣalt",
+        "exampleEn": "When I arrived, I called."
+      },
+      "notes": [
+        {
+          "title": "Setting",
+          "text": "كنت + place/state",
+          "detail": "كنت في الدوام = I was at work."
+        },
+        {
+          "title": "Time link",
+          "text": "لما + event, next event",
+          "detail": "لما وصلت، اتصلت = When I arrived, I called."
+        },
+        {
+          "title": "Story order",
+          "text": "بعدين / بعدها / آخر شي",
+          "detail": "Use these to help the listener follow the sequence."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "multiple-choice",
+          "question": "What does فجأة mean?",
+          "options": [
+            "Suddenly",
+            "Finally",
+            "Because",
+            "Slowly"
+          ],
+          "answer": 0,
+          "feedback": "فجأة means suddenly."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "Which phrase signals the end of a story?",
+          "options": [
+            "آخر شي",
+            "لما",
+            "شو",
+            "ممكن"
+          ],
+          "answer": 0,
+          "feedback": "آخر شي means finally/in the end."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Softening requests and suggesting a solution",
+      "objective": "Make suggestions without sounding too direct.",
+      "vocabulary": [
+        {
+          "key": "خلنا نجرب",
+          "ar": "خلنا نجرب",
+          "trans": "khallna njarrib",
+          "meaning": "Let’s try",
+          "detail": "A collaborative suggestion.",
+          "exampleAr": "خلنا نجرب طريقة ثانية",
+          "exampleTrans": "Khallna njarrib ṭarīga thānya",
+          "exampleEn": "Let’s try another way."
+        },
+        {
+          "key": "يمكن أحسن",
+          "ar": "يمكن أحسن",
+          "trans": "yimkin aḥsan",
+          "meaning": "Maybe it’s better",
+          "detail": "A softened suggestion rather than a strong command.",
+          "exampleAr": "يمكن أحسن ننتظر",
+          "exampleTrans": "Yimkin aḥsan nintaẓir",
+          "exampleEn": "Maybe it’s better to wait."
+        },
+        {
+          "key": "بدل",
+          "ar": "بدل",
+          "trans": "badal",
+          "meaning": "Instead of",
+          "detail": "Introduces an alternative.",
+          "exampleAr": "بدل هذا، خذ الثاني",
+          "exampleTrans": "Badal hātha, khudh ith-thānī",
+          "exampleEn": "Instead of this, take the second one."
+        },
+        {
+          "key": "نجرب",
+          "ar": "نجرب",
+          "trans": "njarrib",
+          "meaning": "We try / let’s try",
+          "detail": "Often follows خلنا in suggestions.",
+          "exampleAr": "نجرب مرة ثانية",
+          "exampleTrans": "Njarrib marra thānya",
+          "exampleEn": "Let’s try again."
+        },
+        {
+          "key": "طريقة",
+          "ar": "طريقة",
+          "trans": "ṭarīga",
+          "meaning": "Way / method",
+          "detail": "Useful when discussing solutions.",
+          "exampleAr": "طريقة ثانية",
+          "exampleTrans": "Ṭarīga thānya",
+          "exampleEn": "Another method."
+        },
+        {
+          "key": "ثاني",
+          "ar": "ثاني",
+          "trans": "thānī",
+          "meaning": "Second / another",
+          "detail": "Masculine form; feminine ثانية.",
+          "exampleAr": "خيار ثاني",
+          "exampleTrans": "Khyār thānī",
+          "exampleEn": "Another option."
+        },
+        {
+          "key": "ننتظر",
+          "ar": "ننتظر",
+          "trans": "nintaẓir",
+          "meaning": "We wait / let’s wait",
+          "detail": "A suggestion or plan in context.",
+          "exampleAr": "خلنا ننتظر شوي",
+          "exampleTrans": "Khallna nintaẓir shway",
+          "exampleEn": "Let’s wait a little."
+        },
+        {
+          "key": "شوي",
+          "ar": "شوي",
+          "trans": "shway",
+          "meaning": "A little / a bit",
+          "detail": "Very common conversational word.",
+          "exampleAr": "انتظر شوي",
+          "exampleTrans": "Intaẓir shway",
+          "exampleEn": "Wait a little."
+        },
+        {
+          "key": "أفضل",
+          "ar": "أفضل",
+          "trans": "afḍal",
+          "meaning": "Better / best",
+          "detail": "Can express preference or recommendation.",
+          "exampleAr": "هذا أفضل",
+          "exampleTrans": "Hātha afḍal",
+          "exampleEn": "This is better."
+        },
+        {
+          "key": "حل",
+          "ar": "حل",
+          "trans": "ḥall",
+          "meaning": "Solution",
+          "detail": "A noun for a way to solve a problem.",
+          "exampleAr": "نحتاج حل",
+          "exampleTrans": "Niḥtāj ḥall",
+          "exampleEn": "We need a solution."
+        }
+      ],
+      "structure": {
+        "pattern": "Soft suggestion: يمكن أحسن + action",
+        "explanation": "To sound collaborative, use suggestions such as خلنا نجرب (“let’s try”) or يمكن أحسن… (“maybe it’s better…”). These give the other person room to agree or suggest another option.",
+        "exampleAr": "يمكن أحسن ننتظر",
+        "exampleTrans": "Yimkin aḥsan nintaẓir",
+        "exampleEn": "Maybe it’s better to wait."
+      },
+      "notes": [
+        {
+          "title": "Collaborative suggestion",
+          "text": "خلنا + verb",
+          "detail": "خلنا نجرب = Let’s try."
+        },
+        {
+          "title": "Soft recommendation",
+          "text": "يمكن أحسن + action",
+          "detail": "يمكن أحسن ننتظر = Maybe it’s better to wait."
+        },
+        {
+          "title": "Alternative",
+          "text": "بدل + option",
+          "detail": "بدل هذا = instead of this."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "multiple-choice",
+          "question": "Which is a softened suggestion?",
+          "options": [
+            "يمكن أحسن ننتظر",
+            "افتح الحين!",
+            "بكم هذا؟",
+            "شو اسمك؟"
+          ],
+          "answer": 0,
+          "feedback": "يمكن أحسن… means “maybe it’s better…” and softens the suggestion."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "بدل هذا means…",
+          "options": [
+            "Instead of this",
+            "After work",
+            "Tomorrow morning",
+            "I don’t understand"
+          ],
+          "answer": 0,
+          "feedback": "بدل means instead of."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Agreeing, disagreeing, and saying “it depends”",
+      "objective": "Express agreement while keeping disagreement respectful.",
+      "vocabulary": [
+        {
+          "key": "صح",
+          "ar": "صح",
+          "trans": "ṣaḥḥ",
+          "meaning": "Correct / right",
+          "detail": "Common agreement or confirmation.",
+          "exampleAr": "صح كلامك",
+          "exampleTrans": "Ṣaḥḥ kalāmak",
+          "exampleEn": "You’re right."
+        },
+        {
+          "key": "بالضبط",
+          "ar": "بالضبط",
+          "trans": "biḍ-ḍabṭ",
+          "meaning": "Exactly",
+          "detail": "Strong agreement or precision.",
+          "exampleAr": "بالضبط، هذا قصدي",
+          "exampleTrans": "Biḍ-ḍabṭ, hātha gaṣdī",
+          "exampleEn": "Exactly, that’s what I mean."
+        },
+        {
+          "key": "أتفق",
+          "ar": "أتفق",
+          "trans": "attifig",
+          "meaning": "I agree",
+          "detail": "A clear agreement phrase, somewhat more formal than short casual replies.",
+          "exampleAr": "أتفق وياك",
+          "exampleTrans": "Attifig wayyāk",
+          "exampleEn": "I agree with you."
+        },
+        {
+          "key": "وياك",
+          "ar": "وياك",
+          "trans": "wayyāk",
+          "meaning": "With you / you (masculine addressee)",
+          "detail": "In أتفق وياك, means “with you”.",
+          "exampleAr": "أتفق وياك",
+          "exampleTrans": "Attifig wayyāk",
+          "exampleEn": "I agree with you."
+        },
+        {
+          "key": "مو شرط",
+          "ar": "مو شرط",
+          "trans": "mū sharṭ",
+          "meaning": "Not necessarily",
+          "detail": "Useful for a gentle disagreement.",
+          "exampleAr": "مو شرط يكون غالي",
+          "exampleTrans": "Mū sharṭ yikūn ghālī",
+          "exampleEn": "It’s not necessarily expensive."
+        },
+        {
+          "key": "على حسب",
+          "ar": "على حسب",
+          "trans": "ʿalā ḥasab",
+          "meaning": "It depends",
+          "detail": "A natural response when the answer varies by situation.",
+          "exampleAr": "على حسب الوقت",
+          "exampleTrans": "ʿAlā ḥasab il-wagt",
+          "exampleEn": "It depends on the time."
+        },
+        {
+          "key": "وجهة نظر",
+          "ar": "وجهة نظر",
+          "trans": "wijhat naẓar",
+          "meaning": "Point of view",
+          "detail": "Useful in discussion or disagreement.",
+          "exampleAr": "أحترم وجهة نظرك",
+          "exampleTrans": "Aḥtirim wijhat naẓarak",
+          "exampleEn": "I respect your point of view."
+        },
+        {
+          "key": "أحترم",
+          "ar": "أحترم",
+          "trans": "aḥtirim",
+          "meaning": "I respect",
+          "detail": "Helps frame respectful disagreement.",
+          "exampleAr": "أحترم رأيك",
+          "exampleTrans": "Aḥtirim raʾyak",
+          "exampleEn": "I respect your opinion."
+        },
+        {
+          "key": "رأي",
+          "ar": "رأي",
+          "trans": "raʾy",
+          "meaning": "Opinion",
+          "detail": "Common word in discussion.",
+          "exampleAr": "هذا رأيي",
+          "exampleTrans": "Hātha raʾyī",
+          "exampleEn": "This is my opinion."
+        },
+        {
+          "key": "يمكن صح",
+          "ar": "يمكن صح",
+          "trans": "yimkin ṣaḥḥ",
+          "meaning": "Maybe that’s right",
+          "detail": "A cautious or partial agreement.",
+          "exampleAr": "يمكن صح، بس…",
+          "exampleTrans": "Yimkin ṣaḥḥ, bas…",
+          "exampleEn": "Maybe that’s right, but…"
+        }
+      ],
+      "structure": {
+        "pattern": "على حسب + factor / مو شرط + statement",
+        "explanation": "Agreement can be short (صح، بالضبط). To disagree gently, use مو شرط (“not necessarily”) or acknowledge the other person’s view before giving your own.",
+        "exampleAr": "على حسب الوقت",
+        "exampleTrans": "ʿAlā ḥasab il-wagt",
+        "exampleEn": "It depends on the time."
+      },
+      "notes": [
+        {
+          "title": "Agreement",
+          "text": "صح / بالضبط",
+          "detail": "صح = right; بالضبط = exactly."
+        },
+        {
+          "title": "It depends",
+          "text": "على حسب + factor",
+          "detail": "على حسب الوقت = it depends on the time."
+        },
+        {
+          "title": "Gentle disagreement",
+          "text": "مو شرط + statement",
+          "detail": "مو شرط يكون غالي = it’s not necessarily expensive."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "multiple-choice",
+          "question": "What does على حسب mean?",
+          "options": [
+            "It depends",
+            "Exactly",
+            "I disagree",
+            "Good morning"
+          ],
+          "answer": 0,
+          "feedback": "على حسب means “it depends”."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "مو شرط means…",
+          "options": [
+            "Not necessarily",
+            "Definitely",
+            "Tomorrow",
+            "Help me"
+          ],
+          "answer": 0,
+          "feedback": "مو شرط is a useful way to soften disagreement."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Clarifying a misunderstanding",
+      "objective": "Check what someone meant and correct confusion calmly.",
+      "vocabulary": [
+        {
+          "key": "تقصد",
+          "ar": "تقصد",
+          "trans": "tigṣid",
+          "meaning": "You mean / do you mean",
+          "detail": "Used to check or clarify the other person’s meaning.",
+          "exampleAr": "تقصد اليوم؟",
+          "exampleTrans": "Tigṣid il-yōm?",
+          "exampleEn": "Do you mean today?"
+        },
+        {
+          "key": "فهمت عليك",
+          "ar": "فهمت عليك",
+          "trans": "fihimt ʿalēk",
+          "meaning": "I understand you",
+          "detail": "A reassuring phrase showing you follow someone.",
+          "exampleAr": "إي، فهمت عليك",
+          "exampleTrans": "Ē, fihimt ʿalēk",
+          "exampleEn": "Yes, I understand you."
+        },
+        {
+          "key": "لا، قصدي",
+          "ar": "لا، قصدي",
+          "trans": "lā, gaṣdī",
+          "meaning": "No, I mean…",
+          "detail": "A common way to correct your own statement.",
+          "exampleAr": "لا، قصدي باچر",
+          "exampleTrans": "Lā, gaṣdī bācher",
+          "exampleEn": "No, I mean tomorrow."
+        },
+        {
+          "key": "قصدك",
+          "ar": "قصدك",
+          "trans": "gaṣdak",
+          "meaning": "You mean / your meaning",
+          "detail": "Used to refer to what the other person intended.",
+          "exampleAr": "قصدك المكتب؟",
+          "exampleTrans": "Gaṣdak il-maktab?",
+          "exampleEn": "You mean the office?"
+        },
+        {
+          "key": "مو هذا",
+          "ar": "مو هذا",
+          "trans": "mū hātha",
+          "meaning": "Not this",
+          "detail": "Used to correct which thing is being discussed.",
+          "exampleAr": "مو هذا، الثاني",
+          "exampleTrans": "Mū hātha, ith-thānī",
+          "exampleEn": "Not this one, the other one."
+        },
+        {
+          "key": "الثاني",
+          "ar": "الثاني",
+          "trans": "ith-thānī",
+          "meaning": "The second / the other one",
+          "detail": "Used to distinguish between two options.",
+          "exampleAr": "أبغي الثاني",
+          "exampleTrans": "Abghī ith-thānī",
+          "exampleEn": "I want the other one."
+        },
+        {
+          "key": "يعني",
+          "ar": "يعني",
+          "trans": "yaʿnī",
+          "meaning": "I mean / meaning",
+          "detail": "Previously introduced; here practise it for clarification rather than relearning it as a new word.",
+          "exampleAr": "يعني عقب الدوام؟",
+          "exampleTrans": "Yaʿnī ʿagib id-dawām?",
+          "exampleEn": "You mean after work?"
+        },
+        {
+          "key": "بالغلط",
+          "ar": "بالغلط",
+          "trans": "bil-ghalaṭ",
+          "meaning": "By mistake",
+          "detail": "Useful when explaining a misunderstanding.",
+          "exampleAr": "قلت الاسم بالغلط",
+          "exampleTrans": "Gilt il-ism bil-ghalaṭ",
+          "exampleEn": "I said the name by mistake."
+        },
+        {
+          "key": "خلني أتأكد",
+          "ar": "خلني أتأكد",
+          "trans": "khallnī atʾakkad",
+          "meaning": "Let me check / make sure",
+          "detail": "A calm way to verify details.",
+          "exampleAr": "خلني أتأكد من الوقت",
+          "exampleTrans": "Khallnī atʾakkad min il-wagt",
+          "exampleEn": "Let me check the time."
+        },
+        {
+          "key": "من قصدك؟",
+          "ar": "من قصدك؟",
+          "trans": "min gaṣdak?",
+          "meaning": "Who do you mean?",
+          "detail": "A direct clarification question.",
+          "exampleAr": "من قصدك بالضبط؟",
+          "exampleTrans": "Min gaṣdak biḍ-ḍabṭ?",
+          "exampleEn": "Who exactly do you mean?"
+        }
+      ],
+      "structure": {
+        "pattern": "تقصد + detail؟ / لا، قصدي + correction",
+        "explanation": "Clarification often repeats a key word with a rising question tone: تقصد اليوم؟ (“You mean today?”). If you caused the confusion, start with لا، قصدي… (“No, I mean…”).",
+        "exampleAr": "تقصد اليوم؟",
+        "exampleTrans": "Tigṣid il-yōm?",
+        "exampleEn": "Do you mean today?"
+      },
+      "notes": [
+        {
+          "title": "Check meaning",
+          "text": "تقصد + detail؟",
+          "detail": "تقصد اليوم؟ checks whether the other person means today."
+        },
+        {
+          "title": "Correct yourself",
+          "text": "لا، قصدي + correction",
+          "detail": "لا، قصدي باچر = No, I mean tomorrow."
+        },
+        {
+          "title": "Verify",
+          "text": "خلني أتأكد + detail",
+          "detail": "Use this when you need to check a time, name, or instruction rather than guess."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "multiple-choice",
+          "question": "تقصد اليوم؟ means…",
+          "options": [
+            "Do you mean today?",
+            "I am at work",
+            "It is very expensive",
+            "Let’s go tomorrow"
+          ],
+          "answer": 0,
+          "feedback": "تقصد asks whether you mean something."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "Which phrase means “let me check”?",
+          "options": [
+            "خلني أتأكد",
+            "مو شرط",
+            "على حسب",
+            "أبغي ماي"
+          ],
+          "answer": 0,
+          "feedback": "خلني أتأكد means let me check/make sure."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Explaining what you’ve just done",
+      "objective": "Report recent actions and explain their current result.",
+      "vocabulary": [
+        {
+          "key": "توني",
+          "ar": "توني",
+          "trans": "tawni",
+          "meaning": "I just…",
+          "detail": "Common colloquial form for something done very recently; exact form changes by speaker/gender.",
+          "exampleAr": "توني وصلت",
+          "exampleTrans": "Tawni waṣalt",
+          "exampleEn": "I just arrived."
+        },
+        {
+          "key": "توني خلصت",
+          "ar": "توني خلصت",
+          "trans": "tawni khallaṣt",
+          "meaning": "I just finished",
+          "detail": "A useful complete phrase for a recent action.",
+          "exampleAr": "توني خلصت الشغل",
+          "exampleTrans": "Tawni khallaṣt ish-shughl",
+          "exampleEn": "I just finished work."
+        },
+        {
+          "key": "طرشت",
+          "ar": "طرشت",
+          "trans": "ṭarash(t)",
+          "meaning": "I sent",
+          "detail": "Common Emirati/Gulf verb for sending a message or item.",
+          "exampleAr": "طرشت لك رسالة",
+          "exampleTrans": "Ṭarasht lak risāla",
+          "exampleEn": "I sent you a message."
+        },
+        {
+          "key": "رسالة",
+          "ar": "رسالة",
+          "trans": "risāla",
+          "meaning": "Message / letter",
+          "detail": "Used for texts and written messages.",
+          "exampleAr": "طرشت رسالة",
+          "exampleTrans": "Ṭarasht risāla",
+          "exampleEn": "I sent a message."
+        },
+        {
+          "key": "نسيت",
+          "ar": "نسيت",
+          "trans": "nēsēt",
+          "meaning": "I forgot",
+          "detail": "Useful when explaining a missed action.",
+          "exampleAr": "نسيت أقول لك",
+          "exampleTrans": "Nēsēt agūl lak",
+          "exampleEn": "I forgot to tell you."
+        },
+        {
+          "key": "أقول لك",
+          "ar": "أقول لك",
+          "trans": "agūl lak",
+          "meaning": "Tell you / say to you",
+          "detail": "A common phrase when explaining communication.",
+          "exampleAr": "بقول لك عقب",
+          "exampleTrans": "Bagūl lak ʿagib",
+          "exampleEn": "I’ll tell you later."
+        },
+        {
+          "key": "بعدني",
+          "ar": "بعدني",
+          "trans": "baʿadnī",
+          "meaning": "I’m still… / I haven’t yet",
+          "detail": "Meaning depends on the verb or context; common for an action not completed.",
+          "exampleAr": "بعدني في الدوام",
+          "exampleTrans": "Baʿadnī fid-dawām",
+          "exampleEn": "I’m still at work."
+        },
+        {
+          "key": "من شوي",
+          "ar": "من شوي",
+          "trans": "min shway",
+          "meaning": "A little while ago",
+          "detail": "Used for something that happened recently.",
+          "exampleAr": "وصل من شوي",
+          "exampleTrans": "Waṣal min shway",
+          "exampleEn": "He arrived a little while ago."
+        },
+        {
+          "key": "قبل شوي",
+          "ar": "قبل شوي",
+          "trans": "gabil shway",
+          "meaning": "Just a little while ago",
+          "detail": "A common phrase for the recent past.",
+          "exampleAr": "كلمته قبل شوي",
+          "exampleTrans": "Kallamtah gabil shway",
+          "exampleEn": "I spoke to him a little while ago."
+        },
+        {
+          "key": "الحين",
+          "ar": "الحين",
+          "trans": "il-ḥīn",
+          "meaning": "Now",
+          "detail": "Previously introduced; here it contrasts a completed action with the current situation.",
+          "exampleAr": "الحين أقدر أروح",
+          "exampleTrans": "Il-ḥīn agdar arūḥ",
+          "exampleEn": "Now I can go."
+        }
+      ],
+      "structure": {
+        "pattern": "توني + past verb / بعدني + situation",
+        "explanation": "توني + past-tense verb commonly means “I just did something”. Use بعدني to show something is still ongoing, and من شوي / قبل شوي for a recent event.",
+        "exampleAr": "توني وصلت",
+        "exampleTrans": "Tawni waṣalt",
+        "exampleEn": "I just arrived."
+      },
+      "notes": [
+        {
+          "title": "Just completed",
+          "text": "توني + past verb",
+          "detail": "توني وصلت = I just arrived."
+        },
+        {
+          "title": "Still ongoing",
+          "text": "بعدني + situation",
+          "detail": "بعدني في الدوام = I’m still at work."
+        },
+        {
+          "title": "Recent time",
+          "text": "قبل شوي / من شوي",
+          "detail": "Both refer to a little while ago; exact preference varies by speaker."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "multiple-choice",
+          "question": "توني وصلت means…",
+          "options": [
+            "I just arrived",
+            "I will arrive tomorrow",
+            "I am still at work",
+            "I forgot"
+          ],
+          "answer": 0,
+          "feedback": "توني + past verb means I just did something."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "Which phrase means “I’m still at work”?",
+          "options": [
+            "بعدني في الدوام",
+            "توني وصلت",
+            "نسيت أقول لك",
+            "طرشت رسالة"
+          ],
+          "answer": 0,
+          "feedback": "بعدني في الدوام means I’m still at work."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Putting it all together",
+      "objective": "Combine greetings, requests, plans, explanations, and clarification in a natural conversation.",
+      "vocabulary": [
+        {
+          "key": "خلنا نرتب",
+          "ar": "خلنا نرتب",
+          "trans": "khallna nrattib",
+          "meaning": "Let’s organise / arrange",
+          "detail": "A practical collaborative phrase.",
+          "exampleAr": "خلنا نرتب الموضوع",
+          "exampleTrans": "Khallna nrattib il-mawḍūʿ",
+          "exampleEn": "Let’s organise the matter."
+        },
+        {
+          "key": "الموضوع",
+          "ar": "الموضوع",
+          "trans": "il-mawḍūʿ",
+          "meaning": "The matter / situation",
+          "detail": "Previously introduced; here practise using it to refer back to a whole situation.",
+          "exampleAr": "",
+          "exampleTrans": "",
+          "exampleEn": ""
+        },
+        {
+          "key": "بكل بساطة",
+          "ar": "بكل بساطة",
+          "trans": "bikil basāṭa",
+          "meaning": "Quite simply",
+          "detail": "Introduces a simple explanation.",
+          "exampleAr": "بكل بساطة، نبدأ الحين",
+          "exampleTrans": "Bikil basāṭa, nibda il-ḥīn",
+          "exampleEn": "Quite simply, we start now."
+        },
+        {
+          "key": "نبدأ",
+          "ar": "نبدأ",
+          "trans": "nibda",
+          "meaning": "We start / let’s start",
+          "detail": "Useful for proposing the first step.",
+          "exampleAr": "نبدأ عقب الاجتماع",
+          "exampleTrans": "Nibda ʿagib il-ijtimāʿ",
+          "exampleEn": "We’ll start after the meeting."
+        },
+        {
+          "key": "اجتماع",
+          "ar": "اجتماع",
+          "trans": "ijtimāʿ",
+          "meaning": "Meeting",
+          "detail": "A workplace and everyday planning word.",
+          "exampleAr": "عندي اجتماع",
+          "exampleTrans": "ʿIndī ijtimāʿ",
+          "exampleEn": "I have a meeting."
+        },
+        {
+          "key": "إذا يناسبك",
+          "ar": "إذا يناسبك",
+          "trans": "itha yināsibak",
+          "meaning": "If it suits you",
+          "detail": "A considerate way to suggest a time or plan.",
+          "exampleAr": "نتلاقى باچر إذا يناسبك",
+          "exampleTrans": "Nitlāga bācher itha yināsibak",
+          "exampleEn": "Let’s meet tomorrow if that suits you."
+        },
+        {
+          "key": "اتفقنا",
+          "ar": "اتفقنا",
+          "trans": "ittafagna",
+          "meaning": "Agreed / it’s a deal",
+          "detail": "Used to confirm a shared plan.",
+          "exampleAr": "تمام، اتفقنا",
+          "exampleTrans": "Tamām, ittafagna",
+          "exampleEn": "Great, agreed."
+        },
+        {
+          "key": "خلاص",
+          "ar": "خلاص",
+          "trans": "khalāṣ",
+          "meaning": "Okay, done / that’s it",
+          "detail": "Meaning depends on context; can close a plan or indicate completion.",
+          "exampleAr": "خلاص، أشوفك باچر",
+          "exampleTrans": "Khalāṣ, ashūfak bācher",
+          "exampleEn": "Okay, see you tomorrow."
+        },
+        {
+          "key": "أي شي",
+          "ar": "أي شي",
+          "trans": "ay shay",
+          "meaning": "Anything / anything at all",
+          "detail": "Useful in offers or broad statements.",
+          "exampleAr": "إذا تحتاج أي شي، كلمني",
+          "exampleTrans": "Itha tiḥtāj ay shay, kallimnī",
+          "exampleEn": "If you need anything, call me."
+        },
+        {
+          "key": "كلمني",
+          "ar": "كلمني",
+          "trans": "kallimnī",
+          "meaning": "Call me / contact me",
+          "detail": "Common informal instruction to contact the speaker.",
+          "exampleAr": "كلمني عقب الاجتماع",
+          "exampleTrans": "Kallimnī ʿagib il-ijtimāʿ",
+          "exampleEn": "Call me after the meeting."
+        }
+      ],
+      "structure": {
+        "pattern": "Suggestion + condition + confirmation",
+        "explanation": "In a longer conversation, combine patterns instead of translating word-for-word: suggest a plan, give a reason, check that it suits the other person, then confirm. Repeated vocabulary from earlier lessons is deliberately not repeated as new vocabulary.",
+        "exampleAr": "نتلاقى باچر إذا يناسبك",
+        "exampleTrans": "Nitlāga bācher itha yināsibak",
+        "exampleEn": "Let’s meet tomorrow if that suits you."
+      },
+      "notes": [
+        {
+          "title": "Propose",
+          "text": "خلنا + verb",
+          "detail": "خلنا نرتب = Let’s organise."
+        },
+        {
+          "title": "Make it considerate",
+          "text": "إذا يناسبك",
+          "detail": "Add this to show that the other person’s schedule matters."
+        },
+        {
+          "title": "Confirm",
+          "text": "تمام / اتفقنا / خلاص",
+          "detail": "Use a short confirmation to close the plan naturally."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "multiple-choice",
+          "question": "إذا يناسبك softens a plan by meaning…",
+          "options": [
+            "If it suits you",
+            "I don’t understand",
+            "Very expensive",
+            "Yesterday"
+          ],
+          "answer": 0,
+          "feedback": "إذا يناسبك means “if it suits you”."
+        },
+        {
+          "type": "multiple-choice",
+          "question": "Which phrase can close and confirm a plan?",
+          "options": [
+            "تمام، اتفقنا",
+            "شو يعني؟",
+            "ما فهمت",
+            "بكم هذا؟"
+          ],
+          "answer": 0,
+          "feedback": "تمام، اتفقنا means “Great, agreed.”"
         }
       ]
     }
-  }
+  ]
 }
